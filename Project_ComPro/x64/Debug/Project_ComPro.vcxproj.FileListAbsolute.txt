@@ -1,0 +1,4 @@
+D:\My_Work\Project\Project_ComPro\x64\Debug\Project_ComPro.vcxproj.AssemblyReference.cache
+D:\My_Work\Project\Project_ComPro\x64\Debug\ProjectComPro.MyForm.resources
+D:\My_Work\Project\Project_ComPro\x64\Debug\Project_ComPro.vcxproj.GenerateResource.cache
+D:\My_Work\Project\Project_ComPro\x64\Debug\ProjectComPro.exe

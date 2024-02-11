@@ -1,0 +1,7 @@
+﻿D:\Program Files\Visual Studio\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Project_ComPro.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  MyForm.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+D:\My_Work\Project\Project_ComPro\MyForm.cpp(10,1): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  MyForm.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Project_ComPro.vcxproj -> D:\My_Work\Project\Project_ComPro\x64\Debug\ProjectComPro.exe
