@@ -1,0 +1,4 @@
+D:\My_Work\Project\Test Image1\x64\Debug\Test Image1.vcxproj.AssemblyReference.cache
+D:\My_Work\Project\Test Image1\x64\Debug\TestImage1.MyForm.resources
+D:\My_Work\Project\Test Image1\x64\Debug\Test Image1.vcxproj.GenerateResource.cache
+D:\My_Work\Project\Test Image1\x64\Debug\TestImage1.exe
