@@ -1,0 +1,4 @@
+﻿  Pmenu.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+Prand.obj : error LNK2005: _main already defined in Pmenu.obj
+Prand.obj : error LNK2005: "int __cdecl main(void)" (?main@@$$HYAHXZ) already defined in Pmenu.obj
+D:\My_Work\Project\Debug\Test.exe : fatal error LNK1169: one or more multiply defined symbols found

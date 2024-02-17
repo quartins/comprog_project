@@ -1,0 +1,4 @@
+D:\My_Work\Project\Git\Test\Test\Debug\Test.Pmenu.resources
+D:\My_Work\Project\Git\Test\Test\Debug\Test.Prand.resources
+D:\My_Work\Project\Git\Test\Test\Debug\Test.vcxproj.GenerateResource.cache
+D:\My_Work\Project\Git\Test\Test\Debug\Test.PShow.resources
