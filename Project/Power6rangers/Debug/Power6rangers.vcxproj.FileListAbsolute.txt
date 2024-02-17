@@ -3,3 +3,6 @@ D:\My_Work\Project\Git\Project\Power6rangers\Debug\Power6rangers.DailyRand.resou
 D:\My_Work\Project\Git\Project\Power6rangers\Debug\Power6rangers.DailyShow.resources
 D:\My_Work\Project\Git\Project\Power6rangers\Debug\Power6rangers.vcxproj.GenerateResource.cache
 D:\My_Work\Project\Git\Project\Power6rangers\Debug\Power6rangers.exe
+D:\My_Work\Project\Git\Project\Power6rangers\Debug\Power6rangers.page.resources
+D:\My_Work\Project\Git\Project\Power6rangers\Debug\Power6rangers.WorkRand.resources
+D:\My_Work\Project\Git\Project\Power6rangers\Debug\Power6rangers.WorkShow.resources
