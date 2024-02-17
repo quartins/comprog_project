@@ -21,14 +21,14 @@
     <ClCompile Include="DailyShow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="WorkRand.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WorkShow.cpp">
-      <Filter>Header Files</Filter>
-    </ClCompile>
     <ClCompile Include="page.cpp">
       <Filter>Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkRand.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WorkShow.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
