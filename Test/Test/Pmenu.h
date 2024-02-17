@@ -30,7 +30,7 @@ namespace Test {
 		~Pmenu()
 		{
 			if (components)
-			{
+			{ 
 				delete components;
 			}
 		}
