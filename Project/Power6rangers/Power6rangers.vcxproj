@@ -120,12 +120,24 @@
   <ItemGroup>
     <ClCompile Include="DailyRand.cpp" />
     <ClCompile Include="DailyShow.cpp" />
+    <ClCompile Include="page.cpp" />
+    <ClCompile Include="WorkRand.cpp" />
+    <ClCompile Include="WorkShow.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DailyRand.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="DailyShow.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="page.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="WorkRand.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="WorkShow.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
@@ -135,6 +147,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="DailyShow.resx">
       <DependentUpon>DailyShow.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page.resx">
+      <DependentUpon>page.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkRand.resx">
+      <DependentUpon>WorkRand.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WorkShow.resx">
+      <DependentUpon>WorkShow.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
