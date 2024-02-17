@@ -1,2 +1,6 @@
-﻿  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-LINK : fatal error LNK1561: entry point must be defined
+﻿  WorkRand.cpp
+C:\Users\Kanokwan Luksanaaree\OneDrive\Work\Project\Power6rangers\WorkRand.cpp(7,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  WorkShow.cpp
+  Generating Code...
+  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Power6rangers.vcxproj -> C:\Users\Kanokwan Luksanaaree\OneDrive\Work\Project\Power6rangers\x64\Debug\Power6rangers.exe
