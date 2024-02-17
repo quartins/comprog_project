@@ -69,8 +69,6 @@ namespace Power6rangers {
 			this->ClientSize = System::Drawing::Size(1717, 1164);
 			this->Controls->Add(this->pictureBox1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
-			this->MaximizeBox = false;
-			this->MinimizeBox = false;
 			this->Name = L"DailyShow";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"DailyShow";
