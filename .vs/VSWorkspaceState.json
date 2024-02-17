@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Test1",
+    "\\Test1\\Image1"
   ],
-  "SelectedNode": "\\D:\\My_Work\\Project",
-  "PreviewInSolutionExplorer": false
+  "SelectedNode": "\\Test1",
+  "PreviewInSolutionExplorer": true
 }
