@@ -120,7 +120,6 @@
   <ItemGroup>
     <ClCompile Include="DailyRand.cpp" />
     <ClCompile Include="DailyShow.cpp" />
-    <ClCompile Include="Page0.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DailyRand.h">
@@ -129,16 +128,13 @@
     <ClInclude Include="DailyShow.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="Page0.h">
-      <FileType>CppForm</FileType>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="DailyRand.resx">
       <DependentUpon>DailyRand.h</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Page0.resx">
-      <DependentUpon>Page0.h</DependentUpon>
+    <EmbeddedResource Include="DailyShow.resx">
+      <DependentUpon>DailyShow.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

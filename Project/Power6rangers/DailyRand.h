@@ -1,5 +1,5 @@
 #pragma once
-
+#include "DailyShow.h"
 namespace Power6rangers {
 
 	using namespace System;
@@ -55,18 +55,19 @@ namespace Power6rangers {
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(720, 840);
+			this->button1->Location = System::Drawing::Point(424, 824);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(416, 104);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"button1";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &DailyRand::Button1_Click);
 			// 
 			// DailyRand
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1840, 1047);
+			this->ClientSize = System::Drawing::Size(1233, 1032);
 			this->Controls->Add(this->button1);
 			this->Name = L"DailyRand";
 			this->Text = L"DailyRand";
@@ -74,5 +75,10 @@ namespace Power6rangers {
 
 		}
 #pragma endregion
+	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Hide();
+		DailyShow^ obj1 = gcnew DailyShow();
+		obj1->ShowDialog();
+	}
 	};
 }

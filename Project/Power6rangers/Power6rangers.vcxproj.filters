@@ -21,18 +21,12 @@
     <ClCompile Include="DailyShow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Page0.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DailyRand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="DailyShow.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Page0.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
