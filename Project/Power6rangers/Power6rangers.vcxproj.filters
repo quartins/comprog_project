@@ -30,6 +30,9 @@
     <ClCompile Include="WorkShow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MenuPage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DailyRand.h">
@@ -47,5 +50,76 @@
     <ClInclude Include="page.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MenuPage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Daily\07-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\08-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\09-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\10-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\11-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\12-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\13-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\14-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\15-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\16-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\17-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\18-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\19-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\20-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\21-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\00-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\01-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\02-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\03-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\04-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\05-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Daily\06-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>

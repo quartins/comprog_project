@@ -33,8 +33,9 @@ namespace Power6rangers {
 				delete components;
 			}
 		}
-	private: System::Windows::Forms::PictureBox^ pictureBox1;
+
 	private: System::Windows::Forms::Button^ button1;
+	private: System::Windows::Forms::PictureBox^ pictureBox1;
 	protected:
 
 	private:
@@ -51,19 +52,10 @@ namespace Power6rangers {
 		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(DailyShow::typeid));
-			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
-			// 
-			// pictureBox1
-			// 
-			this->pictureBox1->Location = System::Drawing::Point(16, 16);
-			this->pictureBox1->Name = L"pictureBox1";
-			this->pictureBox1->Size = System::Drawing::Size(624, 800);
-			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
-			this->pictureBox1->TabIndex = 0;
-			this->pictureBox1->TabStop = false;
 			// 
 			// button1
 			// 
@@ -74,14 +66,23 @@ namespace Power6rangers {
 			this->button1->Text = L"Back to Menu";
 			this->button1->UseVisualStyleBackColor = true;
 			// 
+			// pictureBox1
+			// 
+			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"00-major.png")));
+			this->pictureBox1->Location = System::Drawing::Point(16, 16);
+			this->pictureBox1->Name = L"pictureBox1";
+			this->pictureBox1->Size = System::Drawing::Size(656, 792);
+			this->pictureBox1->TabIndex = 2;
+			this->pictureBox1->TabStop = false;
+			// 
 			// DailyShow
 			// 
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::None;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1374, 829);
-			this->Controls->Add(this->button1);
 			this->Controls->Add(this->pictureBox1);
+			this->Controls->Add(this->button1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
 			this->Name = L"DailyShow";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
@@ -91,7 +92,7 @@ namespace Power6rangers {
 
 		}
 #pragma endregion
-		int num;
+	int num;
 	private: System::Void DailyShow_Load(System::Object^ sender, System::EventArgs^ e) {
 		Random^ random = gcnew Random();
 		num = random->Next(1, 3);
