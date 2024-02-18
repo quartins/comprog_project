@@ -36,6 +36,7 @@ namespace Power6rangers {
 
 
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
+	private: System::Windows::Forms::Button^ button1;
 	private: System::Windows::Forms::LinkLabel^ linkLabel1;
 	protected:
 
@@ -54,6 +55,7 @@ namespace Power6rangers {
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(DailyShow::typeid));
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->linkLabel1 = (gcnew System::Windows::Forms::LinkLabel());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
@@ -61,8 +63,12 @@ namespace Power6rangers {
 			// pictureBox1
 			// 
 			this->pictureBox1->Location = System::Drawing::Point(16, 16);
+			this->pictureBox1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Bottom | System::Windows::Forms::AnchorStyles::Right));
+			this->pictureBox1->Location = System::Drawing::Point(16, 16);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(656, 792);
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox1->Size = System::Drawing::Size(672, 792);
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 0;
 			this->pictureBox1->TabStop = false;
@@ -77,6 +83,17 @@ namespace Power6rangers {
 			this->linkLabel1->TabStop = true;
 			this->linkLabel1->Text = L"To menu";
 			this->linkLabel1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;			// 
+			// button1
+			// 
+			this->button1->Cursor = System::Windows::Forms::Cursors::PanNW;
+			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::System;
+			this->button1->Location = System::Drawing::Point(1184, 752);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(176, 64);
+			this->button1->TabIndex = 1;
+			this->button1->Text = L"Back to menu";
+			this->button1->UseVisualStyleBackColor = true;
+			// 
 			// DailyShow
 			// 
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::None;
@@ -84,7 +101,13 @@ namespace Power6rangers {
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1374, 829);
 			this->Controls->Add(this->linkLabel1);
+			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::None;
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->ClientSize = System::Drawing::Size(1374, 829);
+			this->Controls->Add(this->button1);
 			this->Controls->Add(this->pictureBox1);
+			this->Cursor = System::Windows::Forms::Cursors::PanNW;
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
 			this->Name = L"DailyShow";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
@@ -98,13 +121,56 @@ namespace Power6rangers {
 	int num;
 	private: System::Void DailyShow_Load(System::Object^ sender, System::EventArgs^ e) {
 		Random^ random = gcnew Random();
-		num = random->Next(1, 3);
+		num = random->Next(1, 23);
 
 		switch (num)
 		{
 		case 1:this->pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Project\\Daily\\00-major.png";
 			break;
 		case 2:this->pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Project\\Daily\\01-major.png";
+		case 1:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\00-major.png";
+			break; 
+		case 2:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\01-major.png";
+			break;
+		case 3:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\02-major.png";
+			break;
+		case 4:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\03-major.png";
+			break;
+		case 5:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\04-major.png";
+			break;
+		case 6:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\05-major.png";
+			break;
+		case 7:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\06-major.png";
+			break;
+		case 8:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\07-major.png";
+			break;
+		case 9:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\08-major.png";
+			break;
+		case 10:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\09-major.png";
+			break;
+		case 11:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\10-major.png";
+			break;
+		case 12:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\11-major.png";
+			break;
+		case 13:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\12-major.png";
+			break;
+		case 14:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\13-major.png";
+			break;
+		case 15:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\14-major.png";
+			break;
+		case 16:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\15-major.png";
+			break;
+		case 17:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\16-major.png";
+			break;
+		case 18:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\17-major.png";
+			break;
+		case 19:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\18-major.png";
+			break;
+		case 20:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\19-major.png";
+			break;
+		case 21:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\20-major.png";
+			break;
+		case 22:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily\\21-major.png";
 			break;
 		default: break;
 		}

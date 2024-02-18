@@ -35,6 +35,7 @@ namespace Power6rangers {
 			}
 		}
 	private: System::Windows::Forms::Button^ button1;
+
 	protected:
 
 	private:
@@ -71,9 +72,11 @@ namespace Power6rangers {
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1374, 829);
 			this->Controls->Add(this->button1);
+			this->Cursor = System::Windows::Forms::Cursors::PanNW;
 			this->Name = L"DailyRand";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"DailyRand";
+			this->TransparencyKey = System::Drawing::Color::Black;
 			this->ResumeLayout(false);
 
 		}

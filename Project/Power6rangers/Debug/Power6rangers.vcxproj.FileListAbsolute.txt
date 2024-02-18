@@ -6,4 +6,8 @@ D:\My_Work\Project\Git\Project\Power6rangers\Debug\Power6rangers.exe
 D:\My_Work\Project\Git\Project\Power6rangers\Debug\Power6rangers.page.resources
 D:\My_Work\Project\Git\Project\Power6rangers\Debug\Power6rangers.WorkRand.resources
 D:\My_Work\Project\Git\Project\Power6rangers\Debug\Power6rangers.WorkShow.resources
+<<<<<<< HEAD
 D:\My_Work\Project\Git\Project\Power6rangers\Debug\Power6rangers.MenuPage.resources
+=======
+D:\My_Work\Project\Git\Project\Power6rangers\Debug\Power6rangers.page.aa.resources
+>>>>>>> main

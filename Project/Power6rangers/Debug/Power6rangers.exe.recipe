@@ -6,6 +6,10 @@
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
-  <SatelliteDlls />
+  <SatelliteDlls>
+    <SatelliteDll>
+      <FullPath>D:\My_Work\Project\Git\Project\Power6rangers\Debug\aa\Power6rangers.resources.dll</FullPath>
+    </SatelliteDll>
+  </SatelliteDlls>
   <NonRecipeFileRefs />
 </Project>

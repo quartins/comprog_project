@@ -152,8 +152,13 @@
     <EmbeddedResource Include="DailyShow.resx">
       <DependentUpon>DailyShow.h</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="MenuPage.resx">
       <DependentUpon>MenuPage.h</DependentUpon>
+=======
+    <EmbeddedResource Include="page.aa.resx">
+      <DependentUpon>page.h</DependentUpon>
+>>>>>>> main
     </EmbeddedResource>
     <EmbeddedResource Include="page.resx">
       <DependentUpon>page.h</DependentUpon>
@@ -164,6 +169,9 @@
     <EmbeddedResource Include="WorkShow.resx">
       <DependentUpon>WorkShow.h</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Daily\text.Text" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
