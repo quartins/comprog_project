@@ -1,5 +1,4 @@
 #pragma once
-
 namespace Power6rangers {
 
 	using namespace System;
@@ -35,6 +34,7 @@ namespace Power6rangers {
 			}
 		}
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
+	private: System::Windows::Forms::Button^ button1;
 	protected:
 
 	private:
@@ -52,6 +52,7 @@ namespace Power6rangers {
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(DailyShow::typeid));
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+			this->button1 = (gcnew System::Windows::Forms::Button());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
 			// 
@@ -64,12 +65,22 @@ namespace Power6rangers {
 			this->pictureBox1->TabIndex = 0;
 			this->pictureBox1->TabStop = false;
 			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(1112, 736);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(248, 80);
+			this->button1->TabIndex = 1;
+			this->button1->Text = L"Back to Menu";
+			this->button1->UseVisualStyleBackColor = true;
+			// 
 			// DailyShow
 			// 
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::None;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1374, 829);
+			this->Controls->Add(this->button1);
 			this->Controls->Add(this->pictureBox1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
 			this->Name = L"DailyShow";
@@ -87,9 +98,9 @@ namespace Power6rangers {
 
 		switch (num)
 		{
-		case 1:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily Image\\00-major.png";
-			break; 
-		case 2:pictureBox1->ImageLocation = "D:\\My_Work\\Project\\Git\\Project\\Daily Image\\01-major.png";
+		case 1:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Project\\Daily\\00-major.png";
+			break;
+		case 2:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Project\\Daily\\01-major.png";
 			break;
 		}
 	}

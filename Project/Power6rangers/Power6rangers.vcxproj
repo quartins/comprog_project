@@ -152,6 +152,9 @@
     <EmbeddedResource Include="DailyShow.resx">
       <DependentUpon>DailyShow.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MenuPage.resx">
+      <DependentUpon>MenuPage.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="page.resx">
       <DependentUpon>page.h</DependentUpon>
     </EmbeddedResource>

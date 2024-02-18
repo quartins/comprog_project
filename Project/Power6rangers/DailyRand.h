@@ -80,8 +80,8 @@ namespace Power6rangers {
 #pragma endregion
 	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Hide();
-		DailyShow^ obj1 = gcnew DailyShow();
-		obj1->ShowDialog();
+		DailyShow^ obj3 = gcnew DailyShow();
+		obj3->ShowDialog();
 	}
 	};
 }

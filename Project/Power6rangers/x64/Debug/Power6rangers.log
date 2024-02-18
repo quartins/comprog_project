@@ -1,3 +1,57 @@
-﻿  page.cpp
-  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  Power6rangers.vcxproj -> D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.exe
+﻿  DailyRand.cpp
+D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,77): error C2039: 'PictureBox1_Click': is not a member of 'Power6rangers::DailyShow'
+  (compiling source file 'DailyRand.cpp')
+  D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(14,19):
+  see declaration of 'Power6rangers::DailyShow'
+  
+D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,77): error C2065: 'PictureBox1_Click': undeclared identifier
+  (compiling source file 'DailyRand.cpp')
+  
+D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,58): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
+  (compiling source file 'DailyRand.cpp')
+  D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,58):
+  pointer to member function expected
+  
+  DailyShow.cpp
+D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,77): error C2039: 'PictureBox1_Click': is not a member of 'Power6rangers::DailyShow'
+  (compiling source file 'DailyShow.cpp')
+  D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(14,19):
+  see declaration of 'Power6rangers::DailyShow'
+  
+D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,77): error C2065: 'PictureBox1_Click': undeclared identifier
+  (compiling source file 'DailyShow.cpp')
+  
+D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,58): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
+  (compiling source file 'DailyShow.cpp')
+  D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,58):
+  pointer to member function expected
+  
+  MenuPage.cpp
+D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,77): error C2039: 'PictureBox1_Click': is not a member of 'Power6rangers::DailyShow'
+  (compiling source file 'MenuPage.cpp')
+  D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(14,19):
+  see declaration of 'Power6rangers::DailyShow'
+  
+D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,77): error C2065: 'PictureBox1_Click': undeclared identifier
+  (compiling source file 'MenuPage.cpp')
+  
+D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,58): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
+  (compiling source file 'MenuPage.cpp')
+  D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,58):
+  pointer to member function expected
+  
+  page.cpp
+D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,77): error C2039: 'PictureBox1_Click': is not a member of 'Power6rangers::DailyShow'
+  (compiling source file 'page.cpp')
+  D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(14,19):
+  see declaration of 'Power6rangers::DailyShow'
+  
+D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,77): error C2065: 'PictureBox1_Click': undeclared identifier
+  (compiling source file 'page.cpp')
+  
+D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,58): error C3924: error in argument #2 of delegate constructor call 'System::EventHandler':
+  (compiling source file 'page.cpp')
+  D:\My_Work\Project\Git\Project\Power6rangers\DailyShow.h(67,58):
+  pointer to member function expected
+  
+  Generating Code...
