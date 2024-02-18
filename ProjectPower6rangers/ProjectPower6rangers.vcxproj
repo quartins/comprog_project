@@ -120,7 +120,11 @@
   <ItemGroup>
     <ClCompile Include="DailyRand.cpp" />
     <ClCompile Include="DailyShow.cpp" />
+    <ClCompile Include="LoveRand.cpp" />
+    <ClCompile Include="LoveWork.cpp" />
     <ClCompile Include="MenuPage.cpp" />
+    <ClCompile Include="MoneyRand.cpp" />
+    <ClCompile Include="MoneyShow.cpp" />
     <ClCompile Include="StartPage.cpp" />
     <ClCompile Include="WorkRand.cpp" />
     <ClCompile Include="WorkShow.cpp" />
@@ -132,7 +136,19 @@
     <ClInclude Include="DailyShow.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+    <ClInclude Include="LoveRand.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="LoveWork.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="MenuPage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MoneyRand.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MoneyShow.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="StartPage.h">
