@@ -57,10 +57,7 @@ namespace Power6rangers {
 			// 
 			// button1
 			// 
-			this->button1->AutoEllipsis = true;
-			this->button1->DialogResult = System::Windows::Forms::DialogResult::Cancel;
-			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
-			this->button1->Location = System::Drawing::Point(480, 672);
+			this->button1->Location = System::Drawing::Point(480, 640);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(416, 104);
 			this->button1->TabIndex = 0;
@@ -86,8 +83,8 @@ namespace Power6rangers {
 #pragma endregion
 	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Hide();
-		DailyShow^ obj1 = gcnew DailyShow();
-		obj1->ShowDialog();
+		DailyShow^ obj3 = gcnew DailyShow();
+		obj3->Show();
 	}
 	};
 }

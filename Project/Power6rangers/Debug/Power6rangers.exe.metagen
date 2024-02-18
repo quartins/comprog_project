@@ -1,5 +1,6 @@
   Power6rangers.DailyRand.resources - Embedded, ContainedInManifestFile, 
   Power6rangers.DailyShow.resources - Embedded, ContainedInManifestFile, 
+  Power6rangers.MenuPage.resources - Embedded, ContainedInManifestFile, 
   Power6rangers.page.resources - Embedded, ContainedInManifestFile, 
   Power6rangers.WorkRand.resources - Embedded, ContainedInManifestFile, 
   Power6rangers.WorkShow.resources - Embedded, ContainedInManifestFile, 
@@ -25,6 +26,9 @@ Class Power6rangers.TransparentTextBox: AutoLayout, AnsiClass, Class, Public, Be
   :System.Windows.Forms.TextBox
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class Power6rangers.DailyRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Power6rangers.MenuPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class Power6rangers.page: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

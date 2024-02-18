@@ -1,5 +1,9 @@
   Power6rangers.DailyRand.resources - Embedded, ContainedInManifestFile, 
   Power6rangers.DailyShow.resources - Embedded, ContainedInManifestFile, 
+<<<<<<< HEAD
+  Power6rangers.MenuPage.resources - Embedded, ContainedInManifestFile, 
+=======
+>>>>>>> main
   Power6rangers.page.resources - Embedded, ContainedInManifestFile, 
   Power6rangers.WorkRand.resources - Embedded, ContainedInManifestFile, 
   Power6rangers.WorkShow.resources - Embedded, ContainedInManifestFile, 
@@ -25,8 +29,17 @@ Class Power6rangers.DailyShow: AutoLayout, AnsiClass, Class, Public, BeforeField
 Class Power6rangers.DailyRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+<<<<<<< HEAD
 =======
 >>>>>>> e91620711ec0b5d061f0c02c49ee8f41f41de477
+=======
+<<<<<<< HEAD
+Class Power6rangers.MenuPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+=======
+>>>>>>> main
+>>>>>>> Daily
 Class Power6rangers.page: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

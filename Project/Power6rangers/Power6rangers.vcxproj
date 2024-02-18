@@ -120,6 +120,7 @@
   <ItemGroup>
     <ClCompile Include="DailyRand.cpp" />
     <ClCompile Include="DailyShow.cpp" />
+    <ClCompile Include="MenuPage.cpp" />
     <ClCompile Include="page.cpp" />
     <ClCompile Include="WorkRand.cpp" />
     <ClCompile Include="WorkShow.cpp" />
@@ -129,6 +130,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="DailyShow.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MenuPage.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="page.h">
@@ -148,8 +152,13 @@
     <EmbeddedResource Include="DailyShow.resx">
       <DependentUpon>DailyShow.h</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
+    <EmbeddedResource Include="MenuPage.resx">
+      <DependentUpon>MenuPage.h</DependentUpon>
+=======
     <EmbeddedResource Include="page.aa.resx">
       <DependentUpon>page.h</DependentUpon>
+>>>>>>> main
     </EmbeddedResource>
     <EmbeddedResource Include="page.resx">
       <DependentUpon>page.h</DependentUpon>

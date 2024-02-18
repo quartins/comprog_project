@@ -1,5 +1,5 @@
 #pragma once
-
+#include "MenuPage.h"
 namespace Power6rangers {
 
 	using namespace System;
@@ -60,26 +60,46 @@ namespace Power6rangers {
 			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Sylfaen", 18, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
+<<<<<<< HEAD
 			this->button1->Location = System::Drawing::Point(472, 261);
+=======
+			this->button1->Location = System::Drawing::Point(694, 408);
+			this->button1->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+>>>>>>> Daily
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(192, 73);
+			this->button1->Size = System::Drawing::Size(288, 114);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"start";
+<<<<<<< HEAD
 			this->button1->UseVisualStyleBackColor = false;
+=======
+			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &page::Button1_Click);
+>>>>>>> Daily
 			// 
 			// page
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
+			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+<<<<<<< HEAD
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1120, 557);
+=======
+			this->ClientSize = System::Drawing::Size(1680, 870);
+>>>>>>> Daily
 			this->Controls->Add(this->button1);
+			this->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
 			this->Name = L"page";
 			this->Text = L"page";
 			this->ResumeLayout(false);
 
 		}
 #pragma endregion
+	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Hide();
+		MenuPage^ obj1 = gcnew MenuPage();
+		obj1->Show();
+	}
 	};
 }
