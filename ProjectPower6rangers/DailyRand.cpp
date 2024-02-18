@@ -1,0 +1,2 @@
+#include "DailyRand.h"
+

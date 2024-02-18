@@ -118,14 +118,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DailyRand.cpp" />
+    <ClCompile Include="DailyShow.cpp" />
     <ClCompile Include="MenuPage.cpp" />
     <ClCompile Include="StartPage.cpp" />
+    <ClCompile Include="WorkRand.cpp" />
+    <ClCompile Include="WorkShow.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DailyRand.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="DailyShow.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
     <ClInclude Include="MenuPage.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="StartPage.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="WorkRand.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="WorkShow.h">
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
