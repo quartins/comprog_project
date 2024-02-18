@@ -82,6 +82,8 @@ namespace Power6rangers {
 		}
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		WorkShow^ aboutForm = gcnew WorkShow;
+		aboutForm->ShowDialog();
 	}
 	private: System::Void WorkRand_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
