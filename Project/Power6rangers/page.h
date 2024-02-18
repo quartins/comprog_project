@@ -85,7 +85,7 @@ namespace Power6rangers {
 	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Hide();
 		MenuPage^ obj1 = gcnew MenuPage();
-		obj1->ShowDialog();
+		obj1->Show();
 	}
 	};
 }

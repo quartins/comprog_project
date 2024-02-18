@@ -34,8 +34,9 @@ namespace Power6rangers {
 			}
 		}
 
-	private: System::Windows::Forms::Button^ button1;
+
 	private: System::Windows::Forms::PictureBox^ pictureBox1;
+	private: System::Windows::Forms::LinkLabel^ linkLabel1;
 	protected:
 
 	private:
@@ -52,19 +53,10 @@ namespace Power6rangers {
 		void InitializeComponent(void)
 		{
 			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(DailyShow::typeid));
-			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->pictureBox1 = (gcnew System::Windows::Forms::PictureBox());
+			this->linkLabel1 = (gcnew System::Windows::Forms::LinkLabel());
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->BeginInit();
 			this->SuspendLayout();
-			// 
-			// button1
-			// 
-			this->button1->Location = System::Drawing::Point(1112, 736);
-			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(248, 80);
-			this->button1->TabIndex = 1;
-			this->button1->Text = L"Back to Menu";
-			this->button1->UseVisualStyleBackColor = true;
 			// 
 			// pictureBox1
 			// 
@@ -75,14 +67,24 @@ namespace Power6rangers {
 			this->pictureBox1->TabIndex = 0;
 			this->pictureBox1->TabStop = false;
 			// 
+			// linkLabel1
+			// 
+			this->linkLabel1->LinkColor = System::Drawing::Color::Black;
+			this->linkLabel1->Location = System::Drawing::Point(1072, 712);
+			this->linkLabel1->Name = L"linkLabel1";
+			this->linkLabel1->Size = System::Drawing::Size(288, 96);
+			this->linkLabel1->TabIndex = 2;
+			this->linkLabel1->TabStop = true;
+			this->linkLabel1->Text = L"To menu";
+			this->linkLabel1->TextAlign = System::Drawing::ContentAlignment::MiddleCenter;			// 
 			// DailyShow
 			// 
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::None;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(1374, 829);
+			this->Controls->Add(this->linkLabel1);
 			this->Controls->Add(this->pictureBox1);
-			this->Controls->Add(this->button1);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
 			this->Name = L"DailyShow";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
@@ -107,5 +109,6 @@ namespace Power6rangers {
 		default: break;
 		}
 	}
-	};
+
+};
 }

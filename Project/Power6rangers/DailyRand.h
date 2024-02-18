@@ -81,7 +81,7 @@ namespace Power6rangers {
 	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Hide();
 		DailyShow^ obj3 = gcnew DailyShow();
-		obj3->ShowDialog();
+		obj3->Show();
 	}
 	};
 }
