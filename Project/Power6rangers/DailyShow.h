@@ -68,11 +68,11 @@ namespace Power6rangers {
 			// 
 			// pictureBox1
 			// 
-			this->pictureBox1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"00-major.png")));
 			this->pictureBox1->Location = System::Drawing::Point(16, 16);
 			this->pictureBox1->Name = L"pictureBox1";
 			this->pictureBox1->Size = System::Drawing::Size(656, 792);
-			this->pictureBox1->TabIndex = 2;
+			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
+			this->pictureBox1->TabIndex = 0;
 			this->pictureBox1->TabStop = false;
 			// 
 			// DailyShow
@@ -87,6 +87,7 @@ namespace Power6rangers {
 			this->Name = L"DailyShow";
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"DailyShow";
+			this->Load += gcnew System::EventHandler(this, &DailyShow::DailyShow_Load);
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			this->ResumeLayout(false);
 
@@ -99,10 +100,11 @@ namespace Power6rangers {
 
 		switch (num)
 		{
-		case 1:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Project\\Daily\\00-major.png";
+		case 1:this->pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Project\\Daily\\00-major.png";
 			break;
-		case 2:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Project\\Daily\\01-major.png";
+		case 2:this->pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Project\\Daily\\01-major.png";
 			break;
+		default: break;
 		}
 	}
 	};
