@@ -1,6 +1,5 @@
 D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.vcxproj.AssemblyReference.cache
 D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.DailyRand.resources
-D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.Page0.resources
 D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.vcxproj.GenerateResource.cache
 D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.exe
 D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.DailyShow.resources
@@ -11,3 +10,7 @@ C:\Users\Kanokwan Luksanaaree\OneDrive\Work\Project\Power6rangers\x64\Debug\Powe
 C:\Users\Kanokwan Luksanaaree\OneDrive\Work\Project\Power6rangers\x64\Debug\Power6rangers.vcxproj.GenerateResource.cache
 C:\Users\Kanokwan Luksanaaree\OneDrive\Work\Project\Power6rangers\x64\Debug\Power6rangers.exe
 C:\Users\Kanokwan Luksanaaree\OneDrive\Work\Project\Power6rangers\x64\Debug\Power6rangers.WorkShow.resources
+D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.page.resources
+D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.WorkRand.resources
+D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.WorkShow.resources
+D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.page.aa.resources

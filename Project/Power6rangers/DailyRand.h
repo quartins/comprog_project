@@ -35,6 +35,7 @@ namespace Power6rangers {
 			}
 		}
 	private: System::Windows::Forms::Button^ button1;
+
 	protected:
 
 	private:
@@ -50,12 +51,16 @@ namespace Power6rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(DailyRand::typeid));
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(424, 824);
+			this->button1->AutoEllipsis = true;
+			this->button1->DialogResult = System::Windows::Forms::DialogResult::Cancel;
+			this->button1->FlatStyle = System::Windows::Forms::FlatStyle::Flat;
+			this->button1->Location = System::Drawing::Point(480, 672);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(416, 104);
 			this->button1->TabIndex = 0;
@@ -65,12 +70,16 @@ namespace Power6rangers {
 			// 
 			// DailyRand
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
-			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1233, 1032);
+			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::None;
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->ClientSize = System::Drawing::Size(1374, 829);
 			this->Controls->Add(this->button1);
+			this->Cursor = System::Windows::Forms::Cursors::PanNW;
 			this->Name = L"DailyRand";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"DailyRand";
+			this->TransparencyKey = System::Drawing::Color::Black;
 			this->ResumeLayout(false);
 
 		}

@@ -1,3 +1,5 @@
-﻿  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-WorkRand.obj : error LNK2005: "void __clrcall main(cli::array<class System::String ^ >^)" (?main@@$$HYMXP$01EAPE$AAVString@System@@@Z) already defined in page.obj
-D:\comprog power\Project\Power6rangers\x64\Debug\Power6rangers.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿  DailyRand.cpp
+  DailyShow.cpp
+  Generating Code...
+  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Power6rangers.vcxproj -> D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.exe
