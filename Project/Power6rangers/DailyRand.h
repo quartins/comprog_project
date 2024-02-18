@@ -50,12 +50,13 @@ namespace Power6rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(DailyRand::typeid));
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(424, 824);
+			this->button1->Location = System::Drawing::Point(480, 640);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(416, 104);
 			this->button1->TabIndex = 0;
@@ -67,7 +68,9 @@ namespace Power6rangers {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1233, 1032);
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->ClientSize = System::Drawing::Size(1374, 829);
 			this->Controls->Add(this->button1);
 			this->Name = L"DailyRand";
 			this->Text = L"DailyRand";
