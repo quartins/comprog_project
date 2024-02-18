@@ -1,5 +1,16 @@
+<<<<<<< HEAD
 ﻿  DailyRand.cpp
   DailyShow.cpp
   Generating Code...
   DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   Power6rangers.vcxproj -> D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.exe
+=======
+<<<<<<< HEAD
+﻿  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+LINK : fatal error LNK1561: entry point must be defined
+=======
+﻿  WorkRand.cpp
+  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Power6rangers.vcxproj -> C:\Users\Kanokwan Luksanaaree\OneDrive\file\Project\Power6rangers\x64\Debug\Power6rangers.exe
+>>>>>>> d5c68308f80bf8d59f71a12b685a44ea049a7c7f
+>>>>>>> e91620711ec0b5d061f0c02c49ee8f41f41de477

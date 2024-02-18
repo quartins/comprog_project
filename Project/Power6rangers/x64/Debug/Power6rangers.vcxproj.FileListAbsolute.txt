@@ -10,7 +10,18 @@ C:\Users\Kanokwan Luksanaaree\OneDrive\Work\Project\Power6rangers\x64\Debug\Powe
 C:\Users\Kanokwan Luksanaaree\OneDrive\Work\Project\Power6rangers\x64\Debug\Power6rangers.vcxproj.GenerateResource.cache
 C:\Users\Kanokwan Luksanaaree\OneDrive\Work\Project\Power6rangers\x64\Debug\Power6rangers.exe
 C:\Users\Kanokwan Luksanaaree\OneDrive\Work\Project\Power6rangers\x64\Debug\Power6rangers.WorkShow.resources
+<<<<<<< HEAD
 D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.page.resources
 D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.WorkRand.resources
 D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.WorkShow.resources
 D:\My_Work\Project\Git\Project\Power6rangers\x64\Debug\Power6rangers.page.aa.resources
+=======
+C:\Users\Kanokwan Luksanaaree\OneDrive\file\Project\Power6rangers\x64\Debug\Power6rangers.vcxproj.AssemblyReference.cache
+C:\Users\Kanokwan Luksanaaree\OneDrive\file\Project\Power6rangers\x64\Debug\Power6rangers.DailyRand.resources
+C:\Users\Kanokwan Luksanaaree\OneDrive\file\Project\Power6rangers\x64\Debug\Power6rangers.DailyShow.resources
+C:\Users\Kanokwan Luksanaaree\OneDrive\file\Project\Power6rangers\x64\Debug\Power6rangers.page.resources
+C:\Users\Kanokwan Luksanaaree\OneDrive\file\Project\Power6rangers\x64\Debug\Power6rangers.WorkRand.resources
+C:\Users\Kanokwan Luksanaaree\OneDrive\file\Project\Power6rangers\x64\Debug\Power6rangers.WorkShow.resources
+C:\Users\Kanokwan Luksanaaree\OneDrive\file\Project\Power6rangers\x64\Debug\Power6rangers.vcxproj.GenerateResource.cache
+C:\Users\Kanokwan Luksanaaree\OneDrive\file\Project\Power6rangers\x64\Debug\Power6rangers.exe
+>>>>>>> e91620711ec0b5d061f0c02c49ee8f41f41de477

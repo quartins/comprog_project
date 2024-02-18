@@ -1,15 +1,15 @@
 ﻿#include "WorkRand.h"
 
-using namespace System;
-using namespace System::Windows::Forms;
+<<<<<<< HEAD
+=======
+using namespace Power6rangers;
 
-[STAThread]
-void main(array<String^>^ args) {
+void main() {
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(false);
-	Power6rangers::WorkRand form;
-	Application::Run(% form);
+	Application::Run(gcnew WorkRand());
 }
 
 
+>>>>>>> d5c68308f80bf8d59f71a12b685a44ea049a7c7f
 
