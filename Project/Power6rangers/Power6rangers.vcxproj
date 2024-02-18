@@ -120,6 +120,7 @@
   <ItemGroup>
     <ClCompile Include="DailyRand.cpp" />
     <ClCompile Include="DailyShow.cpp" />
+    <ClCompile Include="MenuPage.cpp" />
     <ClCompile Include="page.cpp" />
     <ClCompile Include="WorkRand.cpp" />
     <ClCompile Include="WorkShow.cpp" />
@@ -129,6 +130,9 @@
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="DailyShow.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="MenuPage.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="page.h">
