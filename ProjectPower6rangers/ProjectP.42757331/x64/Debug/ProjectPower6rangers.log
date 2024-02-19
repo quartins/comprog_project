@@ -1,0 +1,7 @@
+﻿  MenuPage.cpp
+  StartPage.cpp
+C:\Users\Acer  Notebook\source\repos\comprogpj5\ProjectPower6rangers\StartPage.cpp(6,15): warning C4551: function call missing argument list
+C:\Users\Acer  Notebook\source\repos\comprogpj5\ProjectPower6rangers\StartPage.cpp(7,15): warning C4551: function call missing argument list
+  Generating Code...
+  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  ProjectPower6rangers.vcxproj -> C:\Users\Acer  Notebook\source\repos\comprogpj5\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe

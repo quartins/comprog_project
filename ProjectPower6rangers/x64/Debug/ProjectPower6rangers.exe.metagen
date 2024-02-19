@@ -1,7 +1,9 @@
   ProjectPower6rangers.DailyRand.resources - Embedded, ContainedInManifestFile, 
   ProjectPower6rangers.DailyShow.resources - Embedded, ContainedInManifestFile, 
   ProjectPower6rangers.MenuPage.resources - Embedded, ContainedInManifestFile, 
+  ProjectPower6rangers.MoneyRand.resources - Embedded, ContainedInManifestFile, 
   ProjectPower6rangers.StartPage.resources - Embedded, ContainedInManifestFile, 
+  ProjectPower6rangers.WorkShow.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly ProjectPower6rangers, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
 	hash=SHA1, flags=PublicKey

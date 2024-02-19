@@ -1,11 +1,26 @@
+<<<<<<< HEAD
 ﻿  DailyRand.cpp
   DailyShow.cpp
   LoveRand.cpp
   LoveWork.cpp
+=======
+<<<<<<< HEAD
+﻿  LoveRand.cpp
+=======
+﻿  DailyRand.cpp
+  DailyShow.cpp
+<<<<<<< HEAD
+  LoveRand.cpp
+  LoveWork.cpp
+=======
+>>>>>>> dcadcdb03db8128391380422c84b07710d4f79d5
+>>>>>>> d04bcd9d2537130a6ebd60d12e836f0c430eed3e
+>>>>>>> fe34811630a1f5312b7f8c408aee8f7b23b3ccc4
   MenuPage.cpp
   MoneyRand.cpp
   MoneyShow.cpp
   StartPage.cpp
+<<<<<<< HEAD
   WorkRand.cpp
 D:\compower\ProjectPower6rangers\StartPage.cpp(6,15): warning C4551: function call missing argument list
 D:\compower\ProjectPower6rangers\StartPage.cpp(7,15): warning C4551: function call missing argument list
@@ -14,3 +29,24 @@ D:\compower\ProjectPower6rangers\StartPage.cpp(7,15): warning C4551: function ca
   Generating Code...
   DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
   ProjectPower6rangers.vcxproj -> D:\compower\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe
+=======
+<<<<<<< HEAD
+  Generating Code...
+=======
+<<<<<<< HEAD
+  WorkRand.cpp
+C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\StartPage.cpp(6,15): warning C4551: function call missing argument list
+C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\StartPage.cpp(7,15): warning C4551: function call missing argument list
+  WorkShow.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  ProjectPower6rangers.vcxproj -> C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe
+=======
+>>>>>>> d04bcd9d2537130a6ebd60d12e836f0c430eed3e
+D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\StartPage.cpp(6,15): warning C4551: function call missing argument list
+D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\StartPage.cpp(7,15): warning C4551: function call missing argument list
+  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  ProjectPower6rangers.vcxproj -> D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe
+>>>>>>> dcadcdb03db8128391380422c84b07710d4f79d5
+>>>>>>> fe34811630a1f5312b7f8c408aee8f7b23b3ccc4
