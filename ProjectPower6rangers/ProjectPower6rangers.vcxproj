@@ -180,6 +180,9 @@
     <EmbeddedResource Include="StartPage.th-TH.resx">
       <DependentUpon>StartPage.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="WorkRand.resx">
+      <DependentUpon>WorkRand.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WorkShow.resx">
       <DependentUpon>WorkShow.h</DependentUpon>
     </EmbeddedResource>
