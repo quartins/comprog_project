@@ -12,3 +12,10 @@ D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.MenuPage
 D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.StartPage.resources
 D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.vcxproj.GenerateResource.cache
 D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe
+D:\compower\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.vcxproj.AssemblyReference.cache
+D:\compower\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.DailyRand.resources
+D:\compower\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.DailyShow.resources
+D:\compower\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.MenuPage.resources
+D:\compower\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.StartPage.resources
+D:\compower\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.vcxproj.GenerateResource.cache
+D:\compower\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe

@@ -1,14 +1,16 @@
-<<<<<<< HEAD
-﻿  StartPage.cpp
-D:\project compro66\ProjectPower6rangers\StartPage.cpp(6,15): warning C4551: function call missing argument list
-D:\project compro66\ProjectPower6rangers\StartPage.cpp(7,15): warning C4551: function call missing argument list
-=======
 ﻿  DailyRand.cpp
+  DailyShow.cpp
+  LoveRand.cpp
+  LoveWork.cpp
   MenuPage.cpp
+  MoneyRand.cpp
+  MoneyShow.cpp
   StartPage.cpp
-D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\StartPage.cpp(6,15): warning C4551: function call missing argument list
-D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\StartPage.cpp(7,15): warning C4551: function call missing argument list
+  WorkRand.cpp
+D:\compower\ProjectPower6rangers\StartPage.cpp(6,15): warning C4551: function call missing argument list
+D:\compower\ProjectPower6rangers\StartPage.cpp(7,15): warning C4551: function call missing argument list
+  WorkShow.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
   Generating Code...
->>>>>>> f62b94cde197d85519da483bc37bcc07c0dd5bae
   DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  ProjectPower6rangers.vcxproj -> D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe
+  ProjectPower6rangers.vcxproj -> D:\compower\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe
