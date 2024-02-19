@@ -78,4 +78,138 @@
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="Daily\show_major03.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major04.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major05.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major06.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major07.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major08.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major09.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major10.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major11.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major12.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major13.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major14.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major15.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major16.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major17.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major18.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major19.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major20.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major21.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\00-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\01-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\02-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\03-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\04-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\05-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\06-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\07-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\08-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\09-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\10-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\11-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\12-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\13-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\14-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\15-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\16-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\17-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\18-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\19-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\20-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\21-major.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major0.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major1.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Daily\show_major02.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
