@@ -5,3 +5,10 @@ D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\x64\Debug\ProjectPower
 D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.MenuPage.resources
 D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.DailyRand.resources
 D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.DailyShow.resources
+D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.vcxproj.AssemblyReference.cache
+D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.DailyRand.resources
+D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.DailyShow.resources
+D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.MenuPage.resources
+D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.StartPage.resources
+D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.vcxproj.GenerateResource.cache
+D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe
