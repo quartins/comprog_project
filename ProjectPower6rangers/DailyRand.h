@@ -1,5 +1,7 @@
 #pragma once
-
+#using <System.Windows.Forms.dll>
+#using <System.Drawing.dll>
+#include "DailyShow.h"
 namespace ProjectPower6rangers {
 
 	using namespace System;
@@ -34,12 +36,15 @@ namespace ProjectPower6rangers {
 				delete components;
 			}
 		}
+	private: System::Windows::Forms::Button^ button1;
+	protected:
 
 	private:
 		/// <summary>
 		/// Required designer variable.
 		/// </summary>
 		System::ComponentModel::Container ^components;
+		System::Windows::Forms::Form^ form2;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -48,12 +53,36 @@ namespace ProjectPower6rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->components = gcnew System::ComponentModel::Container();
-			this->Size = System::Drawing::Size(300,300);
-			this->Text = L"DailyRand";
-			this->Padding = System::Windows::Forms::Padding(0);
+			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->SuspendLayout();
+			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(464, 496);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(280, 80);
+			this->button1->TabIndex = 0;
+			this->button1->Text = L"Random";
+			this->button1->UseVisualStyleBackColor = true;
+			// 
+			// DailyRand
+			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->ClientSize = System::Drawing::Size(1085, 646);
+			this->Controls->Add(this->button1);
+			this->Name = L"DailyRand";
+			this->Text = L"DailyRand";
+			this->ResumeLayout(false);
+
 		}
 #pragma endregion
+	private:
+		System::Void button1_Click(System::Object^ sender, System::EventArgs^ e)
+		{
+			DailyShow^ form2 = gcnew DailyShow();
+			form2->Show(this);
+			this->Hide();
+		}
 	};
 }

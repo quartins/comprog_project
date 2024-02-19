@@ -1,5 +1,7 @@
 #pragma once
-
+#include "DailyRand.h"
+#using <System.Windows.Forms.dll>
+#using <System.Drawing.dll>
 namespace ProjectPower6rangers {
 
 	using namespace System;
@@ -34,6 +36,8 @@ namespace ProjectPower6rangers {
 				delete components;
 			}
 		}
+	private: System::Windows::Forms::Button^ button1;
+	protected:
 
 	private:
 		/// <summary>
@@ -48,12 +52,41 @@ namespace ProjectPower6rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->components = gcnew System::ComponentModel::Container();
-			this->Size = System::Drawing::Size(300,300);
-			this->Text = L"DailyShow";
-			this->Padding = System::Windows::Forms::Padding(0);
+			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->SuspendLayout();
+			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(1008, 600);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(224, 80);
+			this->button1->TabIndex = 0;
+			this->button1->Text = L"Back";
+			this->button1->UseVisualStyleBackColor = true;
+			// 
+			// DailyShow
+			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->ClientSize = System::Drawing::Size(1257, 701);
+			this->Controls->Add(this->button1);
+			this->Name = L"DailyShow";
+			this->Text = L"DailyShow";
+			this->ResumeLayout(false);
+
 		}
 #pragma endregion
+	private:
+		System::Void button1_Click(System::Object^ sender, System::EventArgs^ e)
+		{
+			this->Owner->Show();
+			this->Hide();
+		}
+
+		System::Void button2_Click(System::Object^ sender, System::EventArgs^ e)
+		{
+			this->Owner->Hide();
+			this->Show();
+		}
 	};
 }

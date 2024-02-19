@@ -1,5 +1,5 @@
 #pragma once
-
+#include "MenuPage.h"
 namespace ProjectPower6rangers {
 
 	using namespace System;
@@ -34,6 +34,8 @@ namespace ProjectPower6rangers {
 				delete components;
 			}
 		}
+	private: System::Windows::Forms::Button^ button1;
+	protected:
 
 	private:
 		/// <summary>
@@ -48,12 +50,34 @@ namespace ProjectPower6rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->components = gcnew System::ComponentModel::Container();
-			this->Size = System::Drawing::Size(300,300);
-			this->Text = L"StartPage";
-			this->Padding = System::Windows::Forms::Padding(0);
+			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->SuspendLayout();
+			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(312, 344);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(272, 80);
+			this->button1->TabIndex = 0;
+			this->button1->Text = L"Start";
+			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &StartPage::Button1_Click);
+			// 
+			// StartPage
+			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->ClientSize = System::Drawing::Size(968, 773);
+			this->Controls->Add(this->button1);
+			this->Name = L"StartPage";
+			this->Text = L"StartPage";
+			this->ResumeLayout(false);
+
 		}
 #pragma endregion
+	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		MenuPage ^page = gcnew MenuPage;
+		page->Show();
+	}
 	};
 }

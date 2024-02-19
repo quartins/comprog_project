@@ -1,0 +1,7 @@
+﻿  DailyShow.cpp
+D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\DailyRand.h(83,4): error C2065: 'DailyShow': undeclared identifier
+  (compiling source file 'DailyShow.cpp')
+  
+D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\DailyRand.h(83,29): error C2061: syntax error: identifier 'DailyShow'
+  (compiling source file 'DailyShow.cpp')
+  

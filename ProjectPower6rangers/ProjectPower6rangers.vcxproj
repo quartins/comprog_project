@@ -161,6 +161,20 @@
       <FileType>CppForm</FileType>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DailyRand.resx">
+      <DependentUpon>DailyRand.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DailyShow.resx">
+      <DependentUpon>DailyShow.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuPage.resx">
+      <DependentUpon>MenuPage.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartPage.resx">
+      <DependentUpon>StartPage.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
