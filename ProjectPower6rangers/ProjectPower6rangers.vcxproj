@@ -171,6 +171,9 @@
     <EmbeddedResource Include="MenuPage.resx">
       <DependentUpon>MenuPage.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MoneyRand.resx">
+      <DependentUpon>MoneyRand.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StartPage.resx">
       <DependentUpon>StartPage.h</DependentUpon>
     </EmbeddedResource>
