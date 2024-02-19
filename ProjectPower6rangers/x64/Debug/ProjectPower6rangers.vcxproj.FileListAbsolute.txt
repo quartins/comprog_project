@@ -12,3 +12,4 @@ D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.MenuPage
 D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.StartPage.resources
 D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.vcxproj.GenerateResource.cache
 D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe
+D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.WorkShow.resources
