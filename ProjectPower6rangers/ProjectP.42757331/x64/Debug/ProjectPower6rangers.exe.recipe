@@ -2,10 +2,14 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\Acer  Notebook\source\repos\comprogpj5\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe</FullPath>
+      <FullPath>C:\Users\Acer  Notebook\source\repos\comprogprojeect6\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
-  <SatelliteDlls />
+  <SatelliteDlls>
+    <SatelliteDll>
+      <FullPath>C:\Users\Acer  Notebook\source\repos\comprogprojeect6\ProjectPower6rangers\ProjectP.42757331\x64\Debug\th-TH\ProjectPower6rangers.resources.dll</FullPath>
+    </SatelliteDll>
+  </SatelliteDlls>
   <NonRecipeFileRefs />
 </Project>

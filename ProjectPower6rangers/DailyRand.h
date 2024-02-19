@@ -61,8 +61,9 @@ namespace ProjectPower6rangers {
 			// button1
 			// 
 			resources->ApplyResources(this->button1, L"button1");
+			this->button1->BackColor = System::Drawing::Color::Coral;
 			this->button1->Name = L"button1";
-			this->button1->UseVisualStyleBackColor = true;
+			this->button1->UseVisualStyleBackColor = false;
 			this->button1->Click += gcnew System::EventHandler(this, &DailyRand::Button1_Click);
 			// 
 			// DailyRand
