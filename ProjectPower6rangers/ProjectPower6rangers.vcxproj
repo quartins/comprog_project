@@ -177,6 +177,9 @@
     <EmbeddedResource Include="StartPage.resx">
       <DependentUpon>StartPage.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="StartPage.th-TH.resx">
+      <DependentUpon>StartPage.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WorkShow.resx">
       <DependentUpon>WorkShow.h</DependentUpon>
     </EmbeddedResource>
