@@ -4,3 +4,11 @@ C:\Users\Acer  Notebook\source\repos\comprogproject4\ProjectPower6rangers\Projec
 C:\Users\Acer  Notebook\source\repos\comprogproject4\ProjectPower6rangers\ProjectP.42757331\x64\Debug\ProjectPower6rangers.MenuPage.resources
 C:\Users\Acer  Notebook\source\repos\comprogproject4\ProjectPower6rangers\ProjectP.42757331\x64\Debug\ProjectPower6rangers.StartPage.resources
 C:\Users\Acer  Notebook\source\repos\comprogproject4\ProjectPower6rangers\ProjectP.42757331\x64\Debug\ProjectPower6rangers.vcxproj.GenerateResource.cache
+C:\Users\Acer  Notebook\source\repos\comprogpj5\ProjectPower6rangers\ProjectP.42757331\x64\Debug\ProjectPower6rangers.vcxproj.AssemblyReference.cache
+C:\Users\Acer  Notebook\source\repos\comprogpj5\ProjectPower6rangers\ProjectP.42757331\x64\Debug\ProjectPower6rangers.DailyRand.resources
+C:\Users\Acer  Notebook\source\repos\comprogpj5\ProjectPower6rangers\ProjectP.42757331\x64\Debug\ProjectPower6rangers.DailyShow.resources
+C:\Users\Acer  Notebook\source\repos\comprogpj5\ProjectPower6rangers\ProjectP.42757331\x64\Debug\ProjectPower6rangers.MenuPage.resources
+C:\Users\Acer  Notebook\source\repos\comprogpj5\ProjectPower6rangers\ProjectP.42757331\x64\Debug\ProjectPower6rangers.MoneyRand.resources
+C:\Users\Acer  Notebook\source\repos\comprogpj5\ProjectPower6rangers\ProjectP.42757331\x64\Debug\ProjectPower6rangers.StartPage.resources
+C:\Users\Acer  Notebook\source\repos\comprogpj5\ProjectPower6rangers\ProjectP.42757331\x64\Debug\ProjectPower6rangers.WorkShow.resources
+C:\Users\Acer  Notebook\source\repos\comprogpj5\ProjectPower6rangers\ProjectP.42757331\x64\Debug\ProjectPower6rangers.vcxproj.GenerateResource.cache

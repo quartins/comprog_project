@@ -57,6 +57,7 @@ namespace ProjectPower6rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MenuPage::typeid));
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->button2 = (gcnew System::Windows::Forms::Button());
 			this->button3 = (gcnew System::Windows::Forms::Button());
@@ -65,9 +66,15 @@ namespace ProjectPower6rangers {
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(312, 168);
+			this->button1->Anchor = System::Windows::Forms::AnchorStyles::None;
+			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(222)));
+			this->button1->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.Image")));
+			this->button1->Location = System::Drawing::Point(208, 115);
+			this->button1->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(328, 80);
+			this->button1->Size = System::Drawing::Size(219, 51);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"Daily";
 			this->button1->UseVisualStyleBackColor = true;
@@ -75,9 +82,14 @@ namespace ProjectPower6rangers {
 			// 
 			// button2
 			// 
-			this->button2->Location = System::Drawing::Point(312, 280);
+			this->button2->Anchor = System::Windows::Forms::AnchorStyles::None;
+			this->button2->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(222)));
+			this->button2->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button2.Image")));
+			this->button2->Location = System::Drawing::Point(208, 179);
+			this->button2->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button2->Name = L"button2";
-			this->button2->Size = System::Drawing::Size(328, 80);
+			this->button2->Size = System::Drawing::Size(219, 51);
 			this->button2->TabIndex = 1;
 			this->button2->Text = L"Love";
 			this->button2->UseVisualStyleBackColor = true;
@@ -85,9 +97,14 @@ namespace ProjectPower6rangers {
 			// 
 			// button3
 			// 
-			this->button3->Location = System::Drawing::Point(317, 375);
+			this->button3->Anchor = System::Windows::Forms::AnchorStyles::None;
+			this->button3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(222)));
+			this->button3->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button3.Image")));
+			this->button3->Location = System::Drawing::Point(208, 243);
+			this->button3->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button3->Name = L"button3";
-			this->button3->Size = System::Drawing::Size(328, 80);
+			this->button3->Size = System::Drawing::Size(219, 51);
 			this->button3->TabIndex = 2;
 			this->button3->Text = L"Money";
 			this->button3->UseVisualStyleBackColor = true;
@@ -95,9 +112,14 @@ namespace ProjectPower6rangers {
 			// 
 			// button4
 			// 
-			this->button4->Location = System::Drawing::Point(320, 480);
+			this->button4->Anchor = System::Windows::Forms::AnchorStyles::None;
+			this->button4->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(222)));
+			this->button4->Image = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button4.Image")));
+			this->button4->Location = System::Drawing::Point(208, 307);
+			this->button4->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->button4->Name = L"button4";
-			this->button4->Size = System::Drawing::Size(328, 80);
+			this->button4->Size = System::Drawing::Size(219, 51);
 			this->button4->TabIndex = 3;
 			this->button4->Text = L"Work";
 			this->button4->UseVisualStyleBackColor = true;
@@ -105,15 +127,19 @@ namespace ProjectPower6rangers {
 			// 
 			// MenuPage
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(962, 831);
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->ClientSize = System::Drawing::Size(641, 532);
 			this->Controls->Add(this->button4);
 			this->Controls->Add(this->button3);
 			this->Controls->Add(this->button2);
 			this->Controls->Add(this->button1);
+			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->Name = L"MenuPage";
 			this->Text = L"MenuPage";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->ResumeLayout(false);
 
 		}
