@@ -54,28 +54,27 @@ namespace ProjectPower6rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(DailyRand::typeid));
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(464, 496);
+			resources->ApplyResources(this->button1, L"button1");
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(280, 80);
-			this->button1->TabIndex = 0;
-			this->button1->Text = L"Random";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &DailyRand::Button1_Click);
 			// 
 			// DailyRand
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
+			resources->ApplyResources(this, L"$this");
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1085, 646);
 			this->Controls->Add(this->button1);
+			this->MinimizeBox = false;
 			this->Name = L"DailyRand";
-			this->Text = L"DailyRand";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->ResumeLayout(false);
+			this->PerformLayout();
 
 		}
 #pragma endregion

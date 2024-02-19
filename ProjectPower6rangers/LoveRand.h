@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 namespace ProjectPower6rangers {
 
@@ -34,6 +34,8 @@ namespace ProjectPower6rangers {
 				delete components;
 			}
 		}
+	private: System::Windows::Forms::Button^ button1;
+	protected:
 
 	private:
 		/// <summary>
@@ -48,12 +50,38 @@ namespace ProjectPower6rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->components = gcnew System::ComponentModel::Container();
-			this->Size = System::Drawing::Size(300,300);
-			this->Text = L"LoveRand";
-			this->Padding = System::Windows::Forms::Padding(0);
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(LoveRand::typeid));
+			this->button1 = (gcnew System::Windows::Forms::Button());
+			this->SuspendLayout();
+			// 
+			// button1
+			// 
+			this->button1->BackColor = System::Drawing::Color::LightPink;
+			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->button1->Location = System::Drawing::Point(606, 306);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(234, 69);
+			this->button1->TabIndex = 0;
+			this->button1->Text = L"รับคำทำนาย";
+			this->button1->UseVisualStyleBackColor = false;
+			this->button1->Click += gcnew System::EventHandler(this, &LoveRand::button1_Click);
+			// 
+			// LoveRand
+			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->ClientSize = System::Drawing::Size(1385, 518);
+			this->Controls->Add(this->button1);
+			this->Name = L"LoveRand";
+			this->Text = L"LoveRand";
+			this->ResumeLayout(false);
+
 		}
 #pragma endregion
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
 	};
 }

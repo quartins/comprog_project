@@ -5,3 +5,4 @@ D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\Debug\ProjectPower6ran
 D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\Debug\ProjectPower6rangers.StartPage.resources
 D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\Debug\ProjectPower6rangers.vcxproj.GenerateResource.cache
 D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\Debug\ProjectPower6rangers.exe
+D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\Debug\ProjectPower6rangers.WorkShow.resources

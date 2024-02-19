@@ -77,52 +77,52 @@ namespace ProjectPower6rangers {
 			this->pictureBox1->TabStop = false;
 			int num;
 			Random^ random = gcnew Random;
-			num = random->Next(1, 5);
+			num = random->Next(1, 23);
 			switch (num)
 			{
-			case 1:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\00-major.png";
+			case 1:this->pictureBox1->Load("00-major.png");
 				break;
-			case 2:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\01-major.png";
+			case 2:this->pictureBox1->Load("01-major.png");
 				break;
-			case 3:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\02-major.png";
+			case 3:this->pictureBox1->Load("02-major.png");
 				break;
-			case 4:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\03-major.png";
+			case 4:this->pictureBox1->Load("03-major.png");
 				break;
-			case 5:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\04-major.png";
+			case 5:this->pictureBox1->Load("04-major.png"); 
 				break;
-			case 6:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\05-major.png";
+			case 6:this->pictureBox1->Load("05-major.png");
 				break;
-			case 7:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\06-major.png";
+			case 7:this->pictureBox1->Load("06-major.png");
 				break;
-			case 8:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\07-major.png";
+			case 8:this->pictureBox1->Load("07-major.png");
 				break;
-			case 9:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\08-major.png";
+			case 9:this->pictureBox1->Load("08-major.png");
 				break;
-			case 10:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\09-major.png";
+			case 10:this->pictureBox1->Load("09-major.png");
 				break;
-			case 11:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\10-major.png";
+			case 11:this->pictureBox1->Load("10-major.png");
 				break; 
-			case 12:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\11-major.png";
+			case 12:this->pictureBox1->Load("11-major.png");
 				break; 
-			case 13:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\12-major.png";
+			case 13:this->pictureBox1->Load("12-major.png");
 				break; 
-			case 14:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\13-major.png";
+			case 14:this->pictureBox1->Load("13-major.png");
 				break; 
-			case 15:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\14-major.png";
+			case 15:this->pictureBox1->Load("14-major.png");
 				break;
-			case 16:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\15-major.png";
+			case 16:this->pictureBox1->Load("15-major.png");
 				break;
-			case 17:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\16-major.png";
+			case 17:this->pictureBox1->Load("16-major.png");
 				break;
-			case 18:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\17-major.png";
+			case 18:this->pictureBox1->Load("17-major.png");
 				break;
-			case 19:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\18-major.png";
+			case 19:this->pictureBox1->Load("18-major.png");
 				break;
-			case 20:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\19-major.png";
+			case 20:this->pictureBox1->Load("19-major.png");
 				break;
-			case 21:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\20-major.png";
+			case 21:this->pictureBox1->Load("20-major.png");
 				break;
-			case 22:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\21-major.png";
+			case 22:this->pictureBox1->Load("21-major.png");
 				break;
 			default: break;
 			}
@@ -136,49 +136,49 @@ namespace ProjectPower6rangers {
 			this->pictureBox2->TabIndex = 2;
 			this->pictureBox2->TabStop = false;
 			if (num == 1)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major0.png";
+				this->pictureBox2->Load("show_major0.png");
 			else if (num == 2)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major1.jpg";
-			else if (num == 3) 
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major02.jpg";
+				this->pictureBox2->Load("show_major1.jpg");
+			else if (num == 3)
+				this->pictureBox2->Load("show_major02.jpg");
 			else if (num == 4) 
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major03.jpg";
+				this->pictureBox2->Load("show_major03.jpg");
 			else if (num == 5) 
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major04.jpg";
+				this->pictureBox2->Load("show_major04.jpg");
 			else if (num == 6)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major05.jpg";
+				this->pictureBox2->Load("show_major05.jpg");
 			else if (num == 7)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major06.jpg";
+				this->pictureBox2->Load("show_major06.jpg");
 			else if (num == 8)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major07.jpg";
+				this->pictureBox2->Load("show_major07.jpg");
 			else if (num == 9)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major08.jpg";
+				this->pictureBox2->Load("show_major08.jpg");
 			else if (num == 10)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major09.jpg";
+				this->pictureBox2->Load("show_major09.jpg");
 			else if (num == 11)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major10.jpg";
+				this->pictureBox2->Load("show_major10.jpg");
 			else if (num == 12)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major11.jpg";
+				this->pictureBox2->Load("show_major11.jpg");
 			else if (num == 13)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major12.jpg";
+				this->pictureBox2->Load("show_major12.jpg");
 			else if (num == 14)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major13.jpg";
+				this->pictureBox2->Load("show_major13.jpg");
 			else if (num == 15)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major14.jpg";
+				this->pictureBox2->Load("show_major14.jpg");
 			else if (num == 16)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major15.jpg";
+				this->pictureBox2->Load("show_major15.jpg");
 			else if (num == 17)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major16.jpg";
+				this->pictureBox2->Load("show_major16.jpg");
 			else if (num == 18)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major17.jpg";
+				this->pictureBox2->Load("show_major17.jpg");
 			else if (num == 19)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major18.jpg";
+				this->pictureBox2->Load("show_major18.jpg");
 			else if (num == 20)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major19.jpg";
+				this->pictureBox2->Load("show_major19.jpg");
 			else if (num == 21)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major20.jpg";
+				this->pictureBox2->Load("show_major20.jpg");
 			else if (num == 22)
-				pictureBox2->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\show_major21.jpg";
+				this->pictureBox2->Load("show_major21.jpg");
 			// 
 			// DailyShow
 			// 
@@ -189,7 +189,7 @@ namespace ProjectPower6rangers {
 			this->Controls->Add(this->button1);
 			this->Name = L"DailyShow";
 			this->Text = L"DailyShow";
-			//this->Load += gcnew System::EventHandler(this, &DailyShow::DailyShow_Load);
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			this->ResumeLayout(false);
