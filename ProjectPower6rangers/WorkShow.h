@@ -72,7 +72,9 @@ namespace ProjectPower6rangers {
 			this->Controls->Add(this->button1);
 			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->Name = L"WorkShow";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"WorkShow";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->Load += gcnew System::EventHandler(this, &WorkShow::WorkShow_Load);
 			this->ResumeLayout(false);
 

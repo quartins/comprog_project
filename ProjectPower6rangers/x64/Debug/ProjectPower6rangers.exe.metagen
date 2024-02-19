@@ -3,6 +3,7 @@
   ProjectPower6rangers.MenuPage.resources - Embedded, ContainedInManifestFile, 
   ProjectPower6rangers.MoneyRand.resources - Embedded, ContainedInManifestFile, 
   ProjectPower6rangers.StartPage.resources - Embedded, ContainedInManifestFile, 
+  ProjectPower6rangers.WorkRand.resources - Embedded, ContainedInManifestFile, 
   ProjectPower6rangers.WorkShow.resources - Embedded, ContainedInManifestFile, 
 ImageRuntimeVersion: v4.0.30319
 Assembly ProjectPower6rangers, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
@@ -31,6 +32,9 @@ Class ProjectPower6rangers.LoveRand: AutoLayout, AnsiClass, Class, Public, Befor
 Class ProjectPower6rangers.LoveWork: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjectPower6rangers.WorkShow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class ProjectPower6rangers.WorkRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
@@ -44,8 +48,5 @@ Class ProjectPower6rangers.MoneyShow: AutoLayout, AnsiClass, Class, Public, Befo
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class ProjectPower6rangers.StartPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class ProjectPower6rangers.WorkShow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

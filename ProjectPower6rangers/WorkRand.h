@@ -60,9 +60,10 @@ namespace ProjectPower6rangers {
 			// button1
 			// 
 			this->button1->Anchor = System::Windows::Forms::AnchorStyles::None;
-			this->button1->BackColor = System::Drawing::Color::Transparent;
+			this->button1->BackColor = System::Drawing::Color::WhiteSmoke;
 			this->button1->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"button1.BackgroundImage")));
 			this->button1->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->button1->ForeColor = System::Drawing::Color::Transparent;
 			this->button1->Location = System::Drawing::Point(358, 358);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(143, 51);
