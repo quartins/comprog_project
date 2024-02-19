@@ -171,55 +171,15 @@
     <EmbeddedResource Include="MenuPage.resx">
       <DependentUpon>MenuPage.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MoneyRand.resx">
+      <DependentUpon>MoneyRand.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StartPage.resx">
       <DependentUpon>StartPage.h</DependentUpon>
     </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="Daily\00-major.png" />
-    <Image Include="Daily\01-major.png" />
-    <Image Include="Daily\02-major.png" />
-    <Image Include="Daily\03-major.png" />
-    <Image Include="Daily\04-major.png" />
-    <Image Include="Daily\05-major.png" />
-    <Image Include="Daily\06-major.png" />
-    <Image Include="Daily\07-major.png" />
-    <Image Include="Daily\08-major.png" />
-    <Image Include="Daily\09-major.png" />
-    <Image Include="Daily\10-major.png" />
-    <Image Include="Daily\11-major.png" />
-    <Image Include="Daily\12-major.png" />
-    <Image Include="Daily\13-major.png" />
-    <Image Include="Daily\14-major.png" />
-    <Image Include="Daily\15-major.png" />
-    <Image Include="Daily\16-major.png" />
-    <Image Include="Daily\17-major.png" />
-    <Image Include="Daily\18-major.png" />
-    <Image Include="Daily\19-major.png" />
-    <Image Include="Daily\20-major.png" />
-    <Image Include="Daily\21-major.png" />
-    <Image Include="Daily\show_major0.png" />
-    <Image Include="Daily\show_major02.jpg" />
-    <Image Include="Daily\show_major03.jpg" />
-    <Image Include="Daily\show_major04.jpg" />
-    <Image Include="Daily\show_major05.jpg" />
-    <Image Include="Daily\show_major06.jpg" />
-    <Image Include="Daily\show_major07.jpg" />
-    <Image Include="Daily\show_major08.jpg" />
-    <Image Include="Daily\show_major09.jpg" />
-    <Image Include="Daily\show_major1.jpg" />
-    <Image Include="Daily\show_major10.jpg" />
-    <Image Include="Daily\show_major11.jpg" />
-    <Image Include="Daily\show_major12.jpg" />
-    <Image Include="Daily\show_major13.jpg" />
-    <Image Include="Daily\show_major14.jpg" />
-    <Image Include="Daily\show_major15.jpg" />
-    <Image Include="Daily\show_major16.jpg" />
-    <Image Include="Daily\show_major17.jpg" />
-    <Image Include="Daily\show_major18.jpg" />
-    <Image Include="Daily\show_major19.jpg" />
-    <Image Include="Daily\show_major20.jpg" />
-    <Image Include="Daily\show_major21.jpg" />
+    <EmbeddedResource Include="WorkShow.resx">
+      <DependentUpon>WorkShow.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

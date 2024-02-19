@@ -12,3 +12,14 @@ D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.MenuPage
 D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.StartPage.resources
 D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.vcxproj.GenerateResource.cache
 D:\project compro66\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe
+<<<<<<< HEAD
+C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.vcxproj.AssemblyReference.cache
+C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.DailyRand.resources
+C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.DailyShow.resources
+C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.MenuPage.resources
+C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.StartPage.resources
+C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.vcxproj.GenerateResource.cache
+C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe
+=======
+D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.WorkShow.resources
+>>>>>>> dcadcdb03db8128391380422c84b07710d4f79d5
