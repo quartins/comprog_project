@@ -1,7 +1,8 @@
 #pragma once
+#include "DailyShow.h"
 #using <System.Windows.Forms.dll>
 #using <System.Drawing.dll>
-#include "DailyShow.h"
+
 namespace ProjectPower6rangers {
 
 	using namespace System;
@@ -64,6 +65,7 @@ namespace ProjectPower6rangers {
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"Random";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &DailyRand::Button1_Click);
 			// 
 			// DailyRand
 			// 
@@ -77,12 +79,9 @@ namespace ProjectPower6rangers {
 
 		}
 #pragma endregion
-	private:
-		System::Void button1_Click(System::Object^ sender, System::EventArgs^ e)
-		{
-			DailyShow^ form2 = gcnew DailyShow();
-			form2->Show(this);
-			this->Hide();
-		}
+	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		DailyShow ^pageDS = gcnew DailyShow;
+		pageDS->Show();
+	}
 	};
 }
