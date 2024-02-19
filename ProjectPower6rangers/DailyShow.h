@@ -77,7 +77,7 @@ namespace ProjectPower6rangers {
 			this->pictureBox1->TabStop = false;
 			int num;
 			Random^ random = gcnew Random;
-			num = random->Next(1, 5);
+			num = random->Next(1, 23);
 			switch (num)
 			{
 			case 1:pictureBox1->ImageLocation = L"D:\\My_Work\\Project\\Git\\Power6rangers\\ProjectPower6rangers\\Daily\\00-major.png";
@@ -189,7 +189,7 @@ namespace ProjectPower6rangers {
 			this->Controls->Add(this->button1);
 			this->Name = L"DailyShow";
 			this->Text = L"DailyShow";
-			//this->Load += gcnew System::EventHandler(this, &DailyShow::DailyShow_Load);
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox1))->EndInit();
 			(cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->pictureBox2))->EndInit();
 			this->ResumeLayout(false);
