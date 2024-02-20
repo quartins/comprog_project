@@ -160,5 +160,6 @@ namespace ProjectPower6rangers {
 		WorkRand^ pageW = gcnew WorkRand;
 		pageW->Show();
 	}
+
 };
 }
