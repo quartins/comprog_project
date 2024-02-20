@@ -1,4 +1,5 @@
 #pragma once
+#include"MoneyShow.h"
 
 namespace ProjectPower6rangers {
 
@@ -50,6 +51,7 @@ namespace ProjectPower6rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MoneyRand::typeid));
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
@@ -61,11 +63,14 @@ namespace ProjectPower6rangers {
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"button1";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &MoneyRand::button1_Click);
 			// 
 			// MoneyRand
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(995, 527);
 			this->Controls->Add(this->button1);
 			this->Name = L"MoneyRand";
@@ -74,5 +79,9 @@ namespace ProjectPower6rangers {
 
 		}
 #pragma endregion
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		MoneyShow obj;
+		obj.ShowDialog();
+	}
 	};
 }
