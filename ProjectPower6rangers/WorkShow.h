@@ -34,6 +34,8 @@ namespace ProjectPower6rangers {
 				delete components;
 			}
 		}
+	private: System::Windows::Forms::Button^ button1;
+	protected:
 
 	private:
 		/// <summary>
@@ -48,18 +50,37 @@ namespace ProjectPower6rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
+			// 
+			// button1
+			// 
+			this->button1->Location = System::Drawing::Point(932, 437);
+			this->button1->Name = L"button1";
+			this->button1->Size = System::Drawing::Size(209, 49);
+			this->button1->TabIndex = 0;
+			this->button1->Text = L"back";
+			this->button1->UseVisualStyleBackColor = true;
 			// 
 			// WorkShow
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
+			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1831, 1083);
+			this->BackColor = System::Drawing::Color::FromArgb(static_cast<System::Int32>(static_cast<System::Byte>(255)), static_cast<System::Int32>(static_cast<System::Byte>(224)),
+				static_cast<System::Int32>(static_cast<System::Byte>(192)));
+			this->ClientSize = System::Drawing::Size(1221, 675);
+			this->Controls->Add(this->button1);
+			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->Name = L"WorkShow";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"WorkShow";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
+			this->Load += gcnew System::EventHandler(this, &WorkShow::WorkShow_Load);
 			this->ResumeLayout(false);
 
 		}
 #pragma endregion
+	private: System::Void WorkShow_Load(System::Object^ sender, System::EventArgs^ e) {
+	}
 	};
 }
