@@ -15,8 +15,17 @@ namespace ProjectPower6rangers {
 	public ref class MoneyShow : public System::Windows::Forms::Form
 	{
 	public:
+		Form^ obj;
 		MoneyShow(void)
 		{
+			InitializeComponent();
+			//
+			//TODO: Add the constructor code here
+			//
+		}
+		MoneyShow(Form ^obj1)
+		{
+			obj = obj1;
 			InitializeComponent();
 			//
 			//TODO: Add the constructor code here
@@ -78,6 +87,8 @@ namespace ProjectPower6rangers {
 		}
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Hide();
+		obj->Show();
 	}
 	};
 }

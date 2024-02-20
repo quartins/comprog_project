@@ -80,8 +80,9 @@ namespace ProjectPower6rangers {
 		}
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-		MoneyShow obj;
-		obj.ShowDialog();
+		this->Hide();
+		MoneyShow ^obj1 = gcnew MoneyShow(this);
+		obj1->ShowDialog();
 	}
 	};
 }
