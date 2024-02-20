@@ -81,6 +81,7 @@ namespace ProjectPower6rangers {
 			this->Cursor = System::Windows::Forms::Cursors::Default;
 			this->Name = L"StartPage";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
+			this->Load += gcnew System::EventHandler(this, &StartPage::StartPage_Load);
 			this->ResumeLayout(false);
 			this->PerformLayout();
 
@@ -89,6 +90,8 @@ namespace ProjectPower6rangers {
 	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		MenuPage ^page = gcnew MenuPage;
 		page->Show();
+	}
+	private: System::Void StartPage_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
 	};
 }

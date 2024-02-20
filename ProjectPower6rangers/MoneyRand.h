@@ -37,6 +37,10 @@ namespace ProjectPower6rangers {
 	private: System::Windows::Forms::Button^ button1;
 	protected:
 
+	protected:
+
+	protected:
+
 	private:
 		/// <summary>
 		/// Required designer variable.
@@ -50,29 +54,41 @@ namespace ProjectPower6rangers {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(MoneyRand::typeid));
 			this->button1 = (gcnew System::Windows::Forms::Button());
 			this->SuspendLayout();
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(386, 333);
+			this->button1->Anchor = System::Windows::Forms::AnchorStyles::Bottom;
+			this->button1->Font = (gcnew System::Drawing::Font(L"Poor Richard", 16.2F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
+			this->button1->Location = System::Drawing::Point(440, 360);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(222, 94);
+			this->button1->Size = System::Drawing::Size(157, 71);
 			this->button1->TabIndex = 0;
-			this->button1->Text = L"button1";
+			this->button1->Text = L"Let\'s Being";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &MoneyRand::button1_Click);
 			// 
 			// MoneyRand
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
 			this->ClientSize = System::Drawing::Size(995, 527);
 			this->Controls->Add(this->button1);
 			this->Name = L"MoneyRand";
 			this->Text = L"MoneyRand";
+			this->Load += gcnew System::EventHandler(this, &MoneyRand::MoneyRand_Load);
 			this->ResumeLayout(false);
 
 		}
 #pragma endregion
+	private: System::Void MoneyRand_Load(System::Object^ sender, System::EventArgs^ e) {
+	}
+	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+	}
 	};
 }
