@@ -74,7 +74,10 @@ namespace ProjectPower6rangers {
 			this->ClientSize = System::Drawing::Size(995, 527);
 			this->Controls->Add(this->button1);
 			this->Name = L"MoneyRand";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"MoneyRand";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
+			this->Load += gcnew System::EventHandler(this, &MoneyRand::MoneyRand_Load);
 			this->ResumeLayout(false);
 
 		}
@@ -83,6 +86,10 @@ namespace ProjectPower6rangers {
 		this->Hide();
 		MoneyShow ^obj1 = gcnew MoneyShow(this);
 		obj1->ShowDialog();
+		this->Hide();
+		
+	}
+	private: System::Void MoneyRand_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
 	};
 }
