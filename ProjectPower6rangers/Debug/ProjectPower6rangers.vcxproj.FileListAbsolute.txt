@@ -6,13 +6,3 @@ D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\Debug\ProjectPower6ran
 D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\Debug\ProjectPower6rangers.vcxproj.GenerateResource.cache
 D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\Debug\ProjectPower6rangers.exe
 D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\Debug\ProjectPower6rangers.WorkShow.resources
-C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\Debug\ProjectPower6rangers.vcxproj.AssemblyReference.cache
-C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\Debug\ProjectPower6rangers.DailyRand.resources
-C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\Debug\ProjectPower6rangers.DailyShow.resources
-C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\Debug\ProjectPower6rangers.MenuPage.resources
-C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\Debug\ProjectPower6rangers.MoneyRand.resources
-C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\Debug\ProjectPower6rangers.StartPage.resources
-C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\Debug\ProjectPower6rangers.WorkShow.resources
-C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\Debug\ProjectPower6rangers.StartPage.th-TH.resources
-C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\Debug\ProjectPower6rangers.vcxproj.GenerateResource.cache
-C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\Debug\ProjectPower6rangers.exe

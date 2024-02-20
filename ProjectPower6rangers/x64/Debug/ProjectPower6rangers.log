@@ -1,19 +1,2 @@
-﻿  MenuPage.cpp
-<<<<<<< HEAD
-  MoneyRand.cpp
-  StartPage.cpp
-C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\StartPage.cpp(6,15): warning C4551: function call missing argument list
-C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\StartPage.cpp(7,15): warning C4551: function call missing argument list
-  Generating Code...
-LINK : fatal error LNK1104: cannot open file 'C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe'
-=======
-  StartPage.cpp
-C:\Users\Kanokwan Luksanaaree\OneDrive\New folder (3)\ProjectPower6rangers\StartPage.cpp(6,15): warning C4551: function call missing argument list
-C:\Users\Kanokwan Luksanaaree\OneDrive\New folder (3)\ProjectPower6rangers\StartPage.cpp(7,15): warning C4551: function call missing argument list
-  WorkRand.cpp
-  WorkShow.cpp
-  Generating Code...
-  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-  ProjectPower6rangers.vcxproj -> C:\Users\Kanokwan Luksanaaree\OneDrive\New folder (3)\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe
+﻿  ProjectPower6rangers.vcxproj -> C:\Users\Kanokwan Luksanaaree\OneDrive\New folder (3)\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe
 C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
->>>>>>> 0d22faf044a31e334fe2f34c9a3cbaed70060138
