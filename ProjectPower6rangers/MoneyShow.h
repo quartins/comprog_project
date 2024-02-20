@@ -81,7 +81,9 @@ namespace ProjectPower6rangers {
 			this->ClientSize = System::Drawing::Size(1048, 531);
 			this->Controls->Add(this->button1);
 			this->Name = L"MoneyShow";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"MoneyShow";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->ResumeLayout(false);
 
 		}
@@ -89,6 +91,7 @@ namespace ProjectPower6rangers {
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		this->Hide();
 		obj->Show();
+		
 	}
 	};
 }
