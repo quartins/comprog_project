@@ -1,2 +1,10 @@
-﻿  ProjectPower6rangers.vcxproj -> C:\Users\DELL\OneDrive\Documents\Com Prog1\FinalProject\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.
+﻿  DailyRand.cpp
+  DailyShow.cpp
+  MenuPage.cpp
+  StartPage.cpp
+D:\My_Work\Project\Git\ProjectPower6rangers\StartPage.cpp(6,15): warning C4551: function call missing argument list
+D:\My_Work\Project\Git\ProjectPower6rangers\StartPage.cpp(7,15): warning C4551: function call missing argument list
+  Generating Code...
+  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  ProjectPower6rangers.vcxproj -> D:\My_Work\Project\Git\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe
+D:\Program Files\Visual Studio\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.

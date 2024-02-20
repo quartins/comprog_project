@@ -6,3 +6,15 @@ D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\Debug\ProjectPower6ran
 D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\Debug\ProjectPower6rangers.vcxproj.GenerateResource.cache
 D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\Debug\ProjectPower6rangers.exe
 D:\My_Work\Project\Git\Power6rangers\ProjectPower6rangers\Debug\ProjectPower6rangers.WorkShow.resources
+D:\My_Work\Project\Git\ProjectPower6rangers\Debug\ProjectPower6rangers.vcxproj.AssemblyReference.cache
+D:\My_Work\Project\Git\ProjectPower6rangers\Debug\ProjectPower6rangers.DailyRand.resources
+D:\My_Work\Project\Git\ProjectPower6rangers\Debug\ProjectPower6rangers.DailyShow.resources
+D:\My_Work\Project\Git\ProjectPower6rangers\Debug\ProjectPower6rangers.MenuPage.resources
+D:\My_Work\Project\Git\ProjectPower6rangers\Debug\ProjectPower6rangers.MoneyRand.resources
+D:\My_Work\Project\Git\ProjectPower6rangers\Debug\ProjectPower6rangers.MoneyShow.resources
+D:\My_Work\Project\Git\ProjectPower6rangers\Debug\ProjectPower6rangers.StartPage.resources
+D:\My_Work\Project\Git\ProjectPower6rangers\Debug\ProjectPower6rangers.WorkRand.resources
+D:\My_Work\Project\Git\ProjectPower6rangers\Debug\ProjectPower6rangers.WorkShow.resources
+D:\My_Work\Project\Git\ProjectPower6rangers\Debug\ProjectPower6rangers.StartPage.th-TH.resources
+D:\My_Work\Project\Git\ProjectPower6rangers\Debug\ProjectPower6rangers.vcxproj.GenerateResource.cache
+D:\My_Work\Project\Git\ProjectPower6rangers\Debug\ProjectPower6rangers.exe

@@ -1,7 +1,5 @@
 #pragma once
 #include "DailyShow.h"
-#using <System.Windows.Forms.dll>
-#using <System.Drawing.dll>
 
 namespace ProjectPower6rangers {
 
@@ -45,7 +43,6 @@ namespace ProjectPower6rangers {
 		/// Required designer variable.
 		/// </summary>
 		System::ComponentModel::Container ^components;
-		System::Windows::Forms::Form^ form2;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
@@ -63,8 +60,9 @@ namespace ProjectPower6rangers {
 			resources->ApplyResources(this->button1, L"button1");
 			this->button1->BackColor = System::Drawing::Color::Coral;
 			this->button1->Name = L"button1";
-			this->button1->UseVisualStyleBackColor = false;
+			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &DailyRand::Button1_Click);
+			this->button1->Anchor = AnchorStyles::Bottom;
 			// 
 			// DailyRand
 			// 
@@ -75,13 +73,13 @@ namespace ProjectPower6rangers {
 			this->Name = L"DailyRand";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->ResumeLayout(false);
-			this->PerformLayout();
 
 		}
 #pragma endregion
 	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
-		DailyShow ^pageDS = gcnew DailyShow;
-		pageDS->Show();
+		this->Hide();
+		DailyShow^ obj1 = gcnew DailyShow();
+		obj1->ShowDialog();
 	}
 	};
 }
