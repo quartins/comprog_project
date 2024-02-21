@@ -65,12 +65,13 @@ namespace ProjectPower6rangers {
 			this->button1->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Bottom | System::Windows::Forms::AnchorStyles::Right));
 			this->button1->Font = (gcnew System::Drawing::Font(L"Modern No. 20", 16.2F, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(1008, 600);
+			this->button1->Location = System::Drawing::Point(1381, 801);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(224, 80);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"Back";
 			this->button1->UseVisualStyleBackColor = true;
+			this->button1->Click += gcnew System::EventHandler(this, &DailyShow::Button1_Click);
 			// 
 			// pictureBox1
 			// 
@@ -84,7 +85,7 @@ namespace ProjectPower6rangers {
 			// pictureBox2
 			// 
 			this->pictureBox2->Anchor = static_cast<System::Windows::Forms::AnchorStyles>((System::Windows::Forms::AnchorStyles::Top | System::Windows::Forms::AnchorStyles::Right));
-			this->pictureBox2->Location = System::Drawing::Point(600, 16);
+			this->pictureBox2->Location = System::Drawing::Point(973, 16);
 			this->pictureBox2->Name = L"pictureBox2";
 			this->pictureBox2->Size = System::Drawing::Size(650, 720);
 			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
@@ -96,7 +97,7 @@ namespace ProjectPower6rangers {
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::None;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
 			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
-			this->ClientSize = System::Drawing::Size(1257, 701);
+			this->ClientSize = System::Drawing::Size(1630, 902);
 			this->Controls->Add(this->pictureBox2);
 			this->Controls->Add(this->pictureBox1);
 			this->Controls->Add(this->button1);
@@ -109,5 +110,10 @@ namespace ProjectPower6rangers {
 
 		}
 #pragma endregion
-		};
+	public:bool DsToMenu = false;
+	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->DsToMenu = true;
+		this->Close();
+	}
+	};
 }

@@ -140,6 +140,7 @@ namespace ProjectPower6rangers {
 	private: System::Void Button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		DailyRand^ pageD = gcnew DailyRand;
 		pageD->Show();
+		this->Close();
 	}
 	private: System::Void Button2_Click(System::Object^ sender, System::EventArgs^ e) {
 		LoveRand^ pageL = gcnew LoveRand;
