@@ -9,4 +9,4 @@ void main(array<String^>^ args) {
 	Application::SetCompatibleTextRenderingDefault(false);
 	ProjectPower6rangers::DailyShow dsform;
 	ProjectPower6rangers::MenuPage mpform;
-
+}
