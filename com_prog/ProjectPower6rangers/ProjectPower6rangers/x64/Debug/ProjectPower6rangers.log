@@ -1,0 +1,4 @@
+﻿  Menupage.cpp
+C:\Users\Acer  Notebook\source\repos\comprogproject9\com_prog\ProjectPower6rangers\ProjectPower6rangers\Menupage.h(4,10): error C1083: Cannot open include file: 'WorkRand.h': No such file or directory
+  (compiling source file 'Menupage.cpp')
+  

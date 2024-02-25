@@ -39,7 +39,7 @@
     <ClInclude Include="MoneyShow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="WoekRand.h">
+    <ClInclude Include="WorkRand.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="WorkShow.h">

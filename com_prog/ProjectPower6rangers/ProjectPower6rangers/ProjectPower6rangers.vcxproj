@@ -154,12 +154,17 @@
     <ClInclude Include="StartPage.h">
       <FileType>CppForm</FileType>
     </ClInclude>
-    <ClInclude Include="WoekRand.h">
+    <ClInclude Include="WorkRand.h">
       <FileType>CppForm</FileType>
     </ClInclude>
     <ClInclude Include="WorkShow.h">
       <FileType>CppForm</FileType>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Menupage.resx">
+      <DependentUpon>Menupage.h</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
