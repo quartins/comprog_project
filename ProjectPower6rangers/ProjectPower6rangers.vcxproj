@@ -168,6 +168,12 @@
     <EmbeddedResource Include="DailyShow.resx">
       <DependentUpon>DailyShow.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoveRand.resx">
+      <DependentUpon>LoveRand.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoveWork.resx">
+      <DependentUpon>LoveWork.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuPage.resx">
       <DependentUpon>MenuPage.h</DependentUpon>
     </EmbeddedResource>

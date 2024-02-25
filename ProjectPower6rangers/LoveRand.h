@@ -37,6 +37,8 @@ namespace ProjectPower6rangers {
 	private: System::Windows::Forms::Button^ button1;
 	protected:
 
+	protected:
+
 	private:
 		/// <summary>
 		/// Required designer variable.
@@ -59,13 +61,12 @@ namespace ProjectPower6rangers {
 			this->button1->BackColor = System::Drawing::Color::LightPink;
 			this->button1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Bold, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(0)));
-			this->button1->Location = System::Drawing::Point(606, 306);
+			this->button1->Location = System::Drawing::Point(638, 311);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(234, 69);
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"รับคำทำนาย";
 			this->button1->UseVisualStyleBackColor = false;
-			this->button1->Click += gcnew System::EventHandler(this, &LoveRand::button1_Click);
 			// 
 			// LoveRand
 			// 
