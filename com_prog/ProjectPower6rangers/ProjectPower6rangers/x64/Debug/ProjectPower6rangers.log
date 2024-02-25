@@ -1,0 +1,14 @@
+﻿  DailyRand.cpp
+  DailyShow.cpp
+  LoveRand.cpp
+  LoveShow.cpp
+  Menupage.cpp
+  MoneyRand.cpp
+  MoneyShow.cpp
+  StartPage.cpp
+  WoekRand.cpp
+  WorkShow.cpp
+  .NETFramework,Version=v4.7.2.AssemblyAttributes.cpp
+  Generating Code...
+  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+LINK : fatal error LNK1561: entry point must be defined
