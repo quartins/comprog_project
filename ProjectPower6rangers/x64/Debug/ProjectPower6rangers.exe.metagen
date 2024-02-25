@@ -1,5 +1,7 @@
   ProjectPower6rangers.DailyRand.resources - Embedded, ContainedInManifestFile, 
   ProjectPower6rangers.DailyShow.resources - Embedded, ContainedInManifestFile, 
+  ProjectPower6rangers.LoveRand.resources - Embedded, ContainedInManifestFile, 
+  ProjectPower6rangers.LoveWork.resources - Embedded, ContainedInManifestFile, 
   ProjectPower6rangers.MenuPage.resources - Embedded, ContainedInManifestFile, 
   ProjectPower6rangers.MoneyRand.resources - Embedded, ContainedInManifestFile, 
   ProjectPower6rangers.MoneyShow.resources - Embedded, ContainedInManifestFile, 
@@ -26,11 +28,14 @@ Class ProjectPower6rangers.DailyShow: AutoLayout, AnsiClass, Class, Public, Befo
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
   Fields:
     System.Windows.Forms.Form obj : Public
-    Boolean ToMenu : Public
+    Boolean DsToMenu : Public
 Class ProjectPower6rangers.DailyRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class ProjectPower6rangers.LoveRand: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class ProjectPower6rangers.LoveWork: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class ProjectPower6rangers.WorkShow: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
@@ -49,9 +54,6 @@ Class ProjectPower6rangers.MoneyRand: AutoLayout, AnsiClass, Class, Public, Befo
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class ProjectPower6rangers.MenuPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
-  :System.Windows.Forms.Form
-    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
-Class ProjectPower6rangers.LoveWork: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
   :System.Windows.Forms.Form
     Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
 Class ProjectPower6rangers.StartPage: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit

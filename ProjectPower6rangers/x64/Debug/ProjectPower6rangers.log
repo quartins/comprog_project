@@ -1,4 +1,2 @@
-﻿  DailyRand.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
-MenuPage.obj : error LNK2005: "void __clrcall main(cli::array<class System::String ^ >^)" (?main@@$$HYMXP$01EAPE$AAVString@System@@@Z) already defined in DailyShow.obj
-DailyShow.obj : error LNK2022: metadata operation failed (80131188) : Inconsistent field declarations in duplicated types (types: ProjectPower6rangers.DailyShow; fields: ToMenu): (0x04000006).
-LINK : fatal error LNK1255: link failed because of metadata errors
+﻿  ProjectPower6rangers.vcxproj -> C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalProYear2\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5476,5): error MSB3541: Files has invalid value "<<<<<<< HEAD". Illegal characters in path.

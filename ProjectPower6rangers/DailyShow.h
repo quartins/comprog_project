@@ -81,6 +81,57 @@ namespace ProjectPower6rangers {
 			this->pictureBox1->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox1->TabIndex = 1;
 			this->pictureBox1->TabStop = false;
+			int num;
+			Random^ random = gcnew Random;
+			num = random->Next(1, 23);
+			switch (num)
+			{
+			case 1:this->pictureBox1->Load("00-major.png");
+				break;
+			case 2:this->pictureBox1->Load("01-major.png");
+				break;
+			case 3:this->pictureBox1->Load("02-major.png");
+				break;
+			case 4:this->pictureBox1->Load("03-major.png");
+				break;
+			case 5:this->pictureBox1->Load("04-major.png");
+				break;
+			case 6:this->pictureBox1->Load("05-major.png");
+				break;
+			case 7:this->pictureBox1->Load("06-major.png");
+				break;
+			case 8:this->pictureBox1->Load("07-major.png");
+				break;
+			case 9:this->pictureBox1->Load("08-major.png");
+				break;
+			case 10:this->pictureBox1->Load("09-major.png");
+				break;
+			case 11:this->pictureBox1->Load("10-major.png");
+				break;
+			case 12:this->pictureBox1->Load("11-major.png");
+				break;
+			case 13:this->pictureBox1->Load("12-major.png");
+				break;
+			case 14:this->pictureBox1->Load("13-major.png");
+				break;
+			case 15:this->pictureBox1->Load("14-major.png");
+				break;
+			case 16:this->pictureBox1->Load("15-major.png");
+				break;
+			case 17:this->pictureBox1->Load("16-major.png");
+				break;
+			case 18:this->pictureBox1->Load("17-major.png");
+				break;
+			case 19:this->pictureBox1->Load("18-major.png");
+				break;
+			case 20:this->pictureBox1->Load("19-major.png");
+				break;
+			case 21:this->pictureBox1->Load("20-major.png");
+				break;
+			case 22:this->pictureBox1->Load("21-major.png");
+				break;
+			default: break;
+			}
 			// 
 			// pictureBox2
 			// 
@@ -91,6 +142,50 @@ namespace ProjectPower6rangers {
 			this->pictureBox2->SizeMode = System::Windows::Forms::PictureBoxSizeMode::StretchImage;
 			this->pictureBox2->TabIndex = 2;
 			this->pictureBox2->TabStop = false;
+			if (num == 1)
+				this->pictureBox2->Load("show_major0.png");
+			else if (num == 2)
+				this->pictureBox2->Load("show_major1.jpg");
+			else if (num == 3)
+				this->pictureBox2->Load("show_major02.jpg");
+			else if (num == 4)
+				this->pictureBox2->Load("show_major03.jpg");
+			else if (num == 5)
+				this->pictureBox2->Load("show_major04.jpg");
+			else if (num == 6)
+				this->pictureBox2->Load("show_major05.jpg");
+			else if (num == 7)
+				this->pictureBox2->Load("show_major06.jpg");
+			else if (num == 8)
+				this->pictureBox2->Load("show_major07.jpg");
+			else if (num == 9)
+				this->pictureBox2->Load("show_major08.jpg");
+			else if (num == 10)
+				this->pictureBox2->Load("show_major09.jpg");
+			else if (num == 11)
+				this->pictureBox2->Load("show_major10.jpg");
+			else if (num == 12)
+				this->pictureBox2->Load("show_major11.jpg");
+			else if (num == 13)
+				this->pictureBox2->Load("show_major12.jpg");
+			else if (num == 14)
+				this->pictureBox2->Load("show_major13.jpg");
+			else if (num == 15)
+				this->pictureBox2->Load("show_major14.jpg");
+			else if (num == 16)
+				this->pictureBox2->Load("show_major15.jpg");
+			else if (num == 17)
+				this->pictureBox2->Load("show_major16.jpg");
+			else if (num == 18)
+				this->pictureBox2->Load("show_major17.jpg");
+			else if (num == 19)
+				this->pictureBox2->Load("show_major18.jpg");
+			else if (num == 20)
+				this->pictureBox2->Load("show_major19.jpg");
+			else if (num == 21)
+				this->pictureBox2->Load("show_major20.jpg");
+			else if (num == 22)
+				this->pictureBox2->Load("show_major21.jpg");
 			// 
 			// DailyShow
 			// 
