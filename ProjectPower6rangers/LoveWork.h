@@ -15,6 +15,7 @@ namespace ProjectPower6rangers {
 	public ref class LoveWork : public System::Windows::Forms::Form
 	{
 	public:
+		Form^ obj;
 		LoveWork(void)
 		{
 			InitializeComponent();
@@ -22,7 +23,14 @@ namespace ProjectPower6rangers {
 			//TODO: Add the constructor code here
 			//
 		}
+		LoveWork(Form^ obj1) {
+			obj = obj1;
 
+			InitializeComponent();
+			//
+			//TODO: Add the constructor code here
+			//
+		}
 	protected:
 		/// <summary>
 		/// Clean up any resources being used.
@@ -77,11 +85,14 @@ namespace ProjectPower6rangers {
 			this->Controls->Add(this->button1);
 			this->Name = L"LoveWork";
 			this->Text = L"LoveWork";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->ResumeLayout(false);
 
 		}
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Hide();
+		obj->Show();
 	}
 	};
 }

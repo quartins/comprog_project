@@ -1,4 +1,5 @@
 ﻿#pragma once
+#include"LoveWork.h"
 
 namespace ProjectPower6rangers {
 
@@ -67,6 +68,7 @@ namespace ProjectPower6rangers {
 			this->button1->TabIndex = 0;
 			this->button1->Text = L"รับคำทำนาย";
 			this->button1->UseVisualStyleBackColor = false;
+			this->button1->Click += gcnew System::EventHandler(this, &LoveRand::button1_Click_1);
 			// 
 			// LoveRand
 			// 
@@ -78,11 +80,17 @@ namespace ProjectPower6rangers {
 			this->Controls->Add(this->button1);
 			this->Name = L"LoveRand";
 			this->Text = L"LoveRand";
+			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
 			this->ResumeLayout(false);
 
 		}
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
+		this->Hide();
+		LoveWork^ obj1 = gcnew LoveWork(this);
+		obj1->ShowDialog();
+		this->Hide();
 	}
+	
 	};
 }

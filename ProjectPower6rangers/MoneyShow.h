@@ -84,6 +84,7 @@ namespace ProjectPower6rangers {
 			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"MoneyShow";
 			this->WindowState = System::Windows::Forms::FormWindowState::Maximized;
+			this->Load += gcnew System::EventHandler(this, &MoneyShow::MoneyShow_Load);
 			this->ResumeLayout(false);
 
 		}
@@ -92,6 +93,8 @@ namespace ProjectPower6rangers {
 		this->Hide();
 		obj->Show();
 		
+	}
+	private: System::Void MoneyShow_Load(System::Object^ sender, System::EventArgs^ e) {
 	}
 	};
 }

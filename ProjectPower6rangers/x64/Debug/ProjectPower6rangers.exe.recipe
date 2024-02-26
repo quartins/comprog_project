@@ -2,13 +2,13 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalProYear2\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe</FullPath>
+      <FullPath>D:\project compro\26first\ProjectPower6rangers\x64\Debug\ProjectPower6rangers.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
   <SatelliteDlls>
     <SatelliteDll>
-      <FullPath>C:\Users\DELL\OneDrive\Documents\1st Year\ComProg1\FinalProYear2\ProjectPower6rangers\x64\Debug\th-TH\ProjectPower6rangers.resources.dll</FullPath>
+      <FullPath>D:\project compro\26first\ProjectPower6rangers\x64\Debug\th-TH\ProjectPower6rangers.resources.dll</FullPath>
     </SatelliteDll>
   </SatelliteDlls>
   <NonRecipeFileRefs />
